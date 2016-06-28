@@ -9,7 +9,7 @@
  License: GNU General Public License v2 or later
  License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain:  	storefront
-Tags:         	e-commerce, two-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, featured-images, full-width-template, threaded-comments, accessibility-ready, rtl-language-support, footer-widgets, sticky-post, theme-options
+Tags:  e-commerce, two-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, featured-images, full-width-template, threaded-comments, accessibility-ready, rtl-language-support, footer-widgets, sticky-post, theme-options
 */
 @import url(../storefront/style.css);
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
@@ -3040,6 +3040,7 @@ pre[class*="language-"] {
   content: "\f168"; }
 
 /** Customizando Estilos */
+/* Fuentes */
 body {
   font-size: 16px;
   font-family: "FontAwesome", Arial, sans-serif; }
@@ -3048,33 +3049,36 @@ a {
   text-decoration: none; }
 
 h1 {
-  font-size: 1.8rem; }
+  font-size: 1.8rem;
+  font-family: "FontAwesome", Arial, sans-serif; }
   @media screen and (min-width: 48 em) {
     h1 {
       font-size: 2rem; } }
 
 h2 {
-  font-size: 1.4em; }
+  font-size: 1.4rem;
+  font-family: "FontAwesome", Arial, sans-serif; }
   @media screen and (min-width: 48 em) {
     h2 {
-      font-size: 1.5em; } }
+      font-size: 1.6rem; } }
 
 h3 {
-  font-size: 1.2em; }
+  font-size: 1.2rem;
+  font-family: "FontAwesome", Arial, sans-serif; }
   @media screen and (min-width: 48 em) {
     h3 {
-      font-size: 1.3em; } }
+      font-size: 1.4rem; } }
+
+h4 {
+  font-size: 1.1rem;
+  font-family: "FontAwesome", Arial, sans-serif; }
+  @media screen and (min-width: 48 em) {
+    h4 {
+      font-size: 1.2rem; } }
 
 noscript iframe.google-tag {
   display: none;
   visibility: hidden; }
-
-.title {
-  color: grey;
-  padding: 2rem 0; }
-  @media screen and (min-width: 23.4375 em) {
-    .title {
-      padding-top: 1rem; } }
 
 .hide {
   display: none; }
