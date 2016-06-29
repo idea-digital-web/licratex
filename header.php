@@ -25,6 +25,8 @@
 	do_action( 'storefront_before_header' ); ?>
 
 	<header id="masthead" class="site-header" role="banner" style="<?php storefront_header_styles(); ?>">
+	<?php get_template_part( 'templates/nav', 'login' ); ?>
+		
 		<div class="col-full">
 
 			<?php
