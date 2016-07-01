@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
  Theme Name:   Idea Tienda Child
  Theme URI: http://alexballera.com
@@ -3039,7 +3040,7 @@ pre[class*="language-"] {
   content: "\f168"; }
 
 /** Customizando Estilos */
-/* Fuentes */
+/* Variables Globales */
 body {
   font-size: 16px;
   font-family: "FontAwesome", Arial, sans-serif; }
@@ -3050,37 +3051,48 @@ a {
 h1 {
   font-size: 1.8rem;
   font-family: "FontAwesome", Arial, sans-serif; }
-  @media screen and (min-width: 48 em) {
+  @media screen and (min-width: 48em) {
     h1 {
       font-size: 2rem; } }
 
 h2 {
   font-size: 1.4rem;
   font-family: "FontAwesome", Arial, sans-serif; }
-  @media screen and (min-width: 48 em) {
+  @media screen and (min-width: 48em) {
     h2 {
       font-size: 1.6rem; } }
 
 h3 {
   font-size: 1.2rem;
   font-family: "FontAwesome", Arial, sans-serif; }
-  @media screen and (min-width: 48 em) {
+  @media screen and (min-width: 48em) {
     h3 {
       font-size: 1.4rem; } }
 
 h4 {
   font-size: 1.1rem;
   font-family: "FontAwesome", Arial, sans-serif; }
-  @media screen and (min-width: 48 em) {
+  @media screen and (min-width: 48em) {
     h4 {
       font-size: 1.2rem; } }
+
+.hide {
+  display: none; }
+
+.show-block {
+  display: block; }
+
+.show-inline {
+  display: inline; }
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  z-index: 1000; }
 
 noscript iframe.google-tag {
   display: none;
   visibility: hidden; }
-
-.hide {
-  display: none; }
 
 /*
 ----------------------------------------------------------------------------------
@@ -3091,6 +3103,11 @@ HEADER
   margin: 0;
   padding: 0; }
 
+/*
+----------------------------------------------------------------------------------
+HEADER - Barra de Navegación de Contacto y LogIn
+----------------------------------------------------------------------------------
+*/
 .site-header_nav {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3101,20 +3118,69 @@ HEADER
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #F5F5F6; }
+  background-color: #F9F9F9;
+  box-sizing: border-box; }
+  .site-header_nav--item {
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 1rem;
+    display: none; }
+    @media screen and (min-width: 64em) {
+      .site-header_nav--item {
+        display: block; } }
   .site-header_nav--nav ul li a,
   .site-header_nav--contact i,
   .site-header_nav--contact > span, .site-header_nav--welcome,
   .site-header_nav--login a,
   .site-header_nav--social a i {
-    color: #202020;
+    color: #000000;
     line-height: 2rem; }
-  .site-header_nav--contact {
-    width: 22%; }
-    .site-header_nav--contact:nth-child(0) {
-      width: 25%;
-      background-color: red; }
-  .site-header_nav--welcome {
-    width: 25%; }
-  .site-header_nav--social {
-    width: 10%; }
+  @media screen and (min-width: 64em) {
+    .site-header_nav--contact {
+      width: 22%; } }
+  @media screen and (min-width: 64em) {
+    .site-header_nav--contact:nth-child(1) {
+      width: 25%; } }
+  @media screen and (min-width: 64em) {
+    .site-header_nav--welcome {
+      box-sizing: border-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      width: 30%; } }
+  .site-header_nav--welcome--dropdown {
+    margin-left: 1rem;
+    position: relative; }
+    .site-header_nav--welcome--dropdown > button {
+      padding-left: 1rem;
+      padding-right: 1rem;
+      min-width: 125px;
+      background-color: #EC6D4F;
+      color: white; }
+      .site-header_nav--welcome--dropdown > button:focus {
+        outline-color: transparent; }
+      .site-header_nav--welcome--dropdown > button:hover {
+        background-color: #c44530; }
+    .site-header_nav--welcome--dropdown > ul {
+      background-color: #EC6D4F;
+      box-sizing: border-box; }
+      .site-header_nav--welcome--dropdown > ul li {
+        width: 100%; }
+        .site-header_nav--welcome--dropdown > ul li:hover {
+          background-color: #c44530; }
+        .site-header_nav--welcome--dropdown > ul li > a {
+          padding-left: 1rem;
+          padding-right: 1rem;
+          white-space: nowrap;
+          width: 100%;
+          display: block;
+          color: white; }
+  @media screen and (min-width: 64em) {
+    .site-header_nav--social {
+      width: 10%; } }
+
+/*
+----------------------------------------------------------------------------------
+HEADER - Barra de Navegación de Contacto y LogIn
+----------------------------------------------------------------------------------
+*/
