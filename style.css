@@ -7705,3 +7705,23 @@ HEADER - Barra de Navegación de Contacto y LogIn
     margin: 0 5px; }
     .site-header_nav--social a > i.fa:hover {
       color: grey; }
+
+.site-header-cart .widget_shopping_cart {
+  background-color: #24252B; }
+
+.site-footer > .col-full {
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box; }
+
+.site-footer__item {
+  box-sizing: border-box;
+  width: 25%; }
+  .site-footer__item h2 {
+    background-image: url("http://localhost/wp-content/themes/idea-storefront-child/images/fondo-footer.png");
+    background-color: auto;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 10px;
+    text-align: center; }
