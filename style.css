@@ -414,6 +414,30 @@ td,
 th {
   padding: 0; }
 
+/* Variables Globales */
+/* Mixins de Storefront Theme */
+.clear:before,
+.entry-content:before,
+.comment-content:before,
+.site-header:before,
+.site-content:before,
+.site-footer:before, .gallery:before, .clear:after,
+.entry-content:after,
+.comment-content:after,
+.site-header:after,
+.site-content:after,
+.site-footer:after, .gallery:after {
+  content: "";
+  display: table; }
+
+.clear:after,
+.entry-content:after,
+.comment-content:after,
+.site-header:after,
+.site-content:after,
+.site-footer:after, .gallery:after {
+  clear: both; }
+
 /*!
  * Font Mfizz 2.2
  * Copyright 2013-2015 Fizzed, Inc.
@@ -876,30 +900,6 @@ th {
 
 .icon-wordpress:before {
   content: "\f168"; }
-
-/* Variables Globales */
-/* Mixins de Storefront Theme */
-.clear:before,
-.entry-content:before,
-.comment-content:before,
-.site-header:before,
-.site-content:before,
-.site-footer:before, .gallery:before, .clear:after,
-.entry-content:after,
-.comment-content:after,
-.site-header:after,
-.site-content:after,
-.site-footer:after, .gallery:after {
-  content: "";
-  display: table; }
-
-.clear:after,
-.entry-content:after,
-.comment-content:after,
-.site-header:after,
-.site-content:after,
-.site-footer:after, .gallery:after {
-  clear: both; }
 
 /*!
  *  Font Awesome 4.6.1 by @davegandy - http://fontawesome.io - @fontawesome
@@ -7567,6 +7567,97 @@ dl.variation {
     padding-left: 2.618rem;
     padding-right: 2.618rem; } }
 
+.tipsy {
+  font-size: 1rem;
+  font-weight: 700;
+  position: absolute;
+  padding: 5px;
+  z-index: 100000; }
+  .tipsy-inner {
+    background-color: #EC6D4F;
+    color: #FFF;
+    max-width: 200px;
+    padding: 5px 8px 4px 8px;
+    text-align: center;
+    border-radius: 3px;
+    /* Uncomment for shadow */
+    /*box-shadow: 0 0 5px #000000;*/ }
+  .tipsy-arrow {
+    position: absolute;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    border: 5px dashed #000;
+    /* Rules to colour arrows */ }
+    .tipsy-arrow-n {
+      border-bottom-color: #EC6D4F; }
+    .tipsy-arrow-s {
+      border-top-color: #EC6D4F; }
+    .tipsy-arrow-e {
+      border-left-color: #EC6D4F; }
+    .tipsy-arrow-w {
+      border-right-color: #EC6D4F; }
+  .tipsy-n .tipsy-arrow {
+    top: 0px;
+    left: 50%;
+    margin-left: -5px;
+    border-bottom-style: solid;
+    border-top: none;
+    border-left-color: transparent;
+    border-right-color: transparent; }
+  .tipsy-nw .tipsy-arrow {
+    top: 0;
+    left: 10px;
+    border-bottom-style: solid;
+    border-top: none;
+    border-left-color: transparent;
+    border-right-color: transparent; }
+  .tipsy-ne .tipsy-arrow {
+    top: 0;
+    right: 10px;
+    border-bottom-style: solid;
+    border-top: none;
+    border-left-color: transparent;
+    border-right-color: transparent; }
+  .tipsy-s .tipsy-arrow {
+    bottom: 0;
+    left: 50%;
+    margin-left: -5px;
+    border-top-style: solid;
+    border-bottom: none;
+    border-left-color: transparent;
+    border-right-color: transparent; }
+  .tipsy-sw .tipsy-arrow {
+    bottom: 0;
+    left: 10px;
+    border-top-style: solid;
+    border-bottom: none;
+    border-left-color: transparent;
+    border-right-color: transparent; }
+  .tipsy-se .tipsy-arrow {
+    bottom: 0;
+    right: 10px;
+    border-top-style: solid;
+    border-bottom: none;
+    border-left-color: transparent;
+    border-right-color: transparent; }
+  .tipsy-e .tipsy-arrow {
+    right: 0;
+    top: 50%;
+    margin-top: -5px;
+    border-left-style: solid;
+    border-right: none;
+    border-top-color: transparent;
+    border-bottom-color: transparent; }
+  .tipsy-w .tipsy-arrow {
+    left: 0;
+    top: 50%;
+    margin-top: -5px;
+    border-right-style: solid;
+    border-left: none;
+    border-top-color: transparent;
+    border-bottom-color: transparent; }
+
 /** Customizando Estilos */
 body,
 button,
@@ -7637,74 +7728,84 @@ noscript iframe.google-tag {
 HEADER - Barra de Navegación de Contacto y LogIn
 ----------------------------------------------------------------------------------
 */
-.site-header_nav {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap;
-  -ms-flex-pack: center;
-      justify-content: center;
-  background-color: #F9F9F9;
-  box-sizing: border-box; }
-  .site-header_nav--item {
-    width: 100%;
-    box-sizing: border-box;
-    padding-left: 1rem;
-    display: none; }
-    @media screen and (min-width: 64em) {
-      .site-header_nav--item {
-        display: block; } }
-  .site-header_nav--nav ul li a,
-  .site-header_nav--contact i,
-  .site-header_nav--contact > span, .site-header_nav--welcome,
-  .site-header_nav--login a,
-  .site-header_nav--social a i {
-    color: #000000;
-    line-height: 2rem; }
-  @media screen and (min-width: 64em) {
-    .site-header_nav--contact {
-      width: 22%; } }
-  @media screen and (min-width: 64em) {
-    .site-header_nav--contact:nth-child(1) {
-      width: 25%; } }
-  @media screen and (min-width: 64em) {
-    .site-header_nav--welcome {
+.site-header {
+  background-color: #ffffff; }
+  .site-header .col-full {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap; }
+  .site-header_nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+    -ms-flex-pack: center;
+        justify-content: center;
+    background-color: #F9F9F9;
+    box-sizing: border-box; }
+    .site-header_nav--item {
+      width: 100%;
       box-sizing: border-box;
-      display: -ms-flexbox;
-      display: flex;
-      width: 30%; } }
-  .site-header_nav--welcome--dropdown {
-    margin-left: 1rem;
-    position: relative; }
-    .site-header_nav--welcome--dropdown > button {
-      padding: 4px 1rem;
-      min-width: 125px;
-      color: #ffffff; }
-      .site-header_nav--welcome--dropdown > button:focus {
-        outline-color: transparent; }
-    .site-header_nav--welcome--dropdown > ul {
-      background-color: #EC6D4F;
-      box-sizing: border-box; }
-      .site-header_nav--welcome--dropdown > ul li {
-        width: 100%; }
-        .site-header_nav--welcome--dropdown > ul li:hover {
-          background-color: #c44530; }
-        .site-header_nav--welcome--dropdown > ul li > a {
-          padding-left: 1rem;
-          padding-right: 1rem;
-          white-space: nowrap;
-          width: 100%;
-          display: block;
-          color: #ffffff; }
-  @media screen and (min-width: 64em) {
-    .site-header_nav--social {
-      width: 10%;
-      text-align: center;
-      font-size: 1.2rem; } }
-  .site-header_nav--social a {
-    margin: 0 5px; }
-    .site-header_nav--social a > i.fa:hover {
-      color: grey; }
+      padding-left: 1rem;
+      display: none; }
+      @media screen and (min-width: 64em) {
+        .site-header_nav--item {
+          display: block; } }
+    .site-header_nav--nav ul li a,
+    .site-header_nav--contact i,
+    .site-header_nav--contact > span, .site-header_nav--welcome,
+    .site-header_nav--login a,
+    .site-header_nav--social a i {
+      color: #000000;
+      line-height: 2rem; }
+    @media screen and (min-width: 64em) {
+      .site-header_nav--contact {
+        width: 22%; } }
+    @media screen and (min-width: 64em) {
+      .site-header_nav--contact:nth-child(1) {
+        width: 25%; } }
+    @media screen and (min-width: 64em) {
+      .site-header_nav--welcome {
+        box-sizing: border-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 30%; } }
+    .site-header_nav--welcome--dropdown {
+      margin-left: 1rem;
+      position: relative; }
+      .site-header_nav--welcome--dropdown > button {
+        padding: 4px 1rem;
+        min-width: 125px;
+        color: #ffffff; }
+        .site-header_nav--welcome--dropdown > button:focus {
+          outline-color: transparent; }
+      .site-header_nav--welcome--dropdown > ul {
+        background-color: #EC6D4F;
+        box-sizing: border-box; }
+        .site-header_nav--welcome--dropdown > ul li {
+          width: 100%; }
+          .site-header_nav--welcome--dropdown > ul li:hover {
+            background-color: #c44530; }
+          .site-header_nav--welcome--dropdown > ul li > a {
+            padding-left: 1rem;
+            padding-right: 1rem;
+            white-space: nowrap;
+            width: 100%;
+            display: block;
+            color: #ffffff; }
+    @media screen and (min-width: 64em) {
+      .site-header_nav--social {
+        width: 10%;
+        text-align: center;
+        font-size: 1.2rem; } }
+    .site-header_nav--social a {
+      margin: 0 5px; }
+      .site-header_nav--social a > i.fa:hover {
+        color: grey; }
+
+section.storefront-primary-navigation {
+  background-color: #000000 !important; }
 
 .site-header-cart .widget_shopping_cart {
   background-color: #24252B; }
