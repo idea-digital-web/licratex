@@ -3873,8 +3873,15 @@ button.menu-toggle {
 .primary-navigation {
   display: none; }
 
-.main-navigation .menu {
-  clear: both; }
+.main-navigation {
+  width: 100% !important;
+  margin-right: 0 !important; }
+  .main-navigation::after {
+    clear: both;
+    content: "";
+    display: table; }
+  .main-navigation .menu {
+    clear: both; }
 
 .handheld-navigation,
 .nav-menu,
