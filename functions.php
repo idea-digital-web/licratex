@@ -52,6 +52,8 @@ function custom_header_layout() {
 	add_action( 'storefront_header', 'storefront_secondary_navigation_wrapper', 22 );
 	add_action( 'storefront_header', 'banner_header', 25 );
 	add_action( 'storefront_header', 'storefront_secondary_navigation_wrapper_close', 41 );
+	remove_action( 'storefront_header', 'storefront_primary_navigation_wrapper ', 42 );
+	remove_action( 'storefront_header', 'storefront_primary_navigation_wrapper_close ', 68 );
 }
 add_action( 'init', 'custom_header_layout' );
 /**
