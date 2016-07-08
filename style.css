@@ -12,53 +12,6 @@
 Text Domain: storefront
 Tags:  e-commerce, two-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, featured-images, full-width-template, threaded-comments, accessibility-ready, rtl-language-support, footer-widgets, sticky-post, theme-options
 */
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video, button {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline; }
-
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block; }
-
-body {
-  line-height: 1; }
-
-ol, ul {
-  list-style: none; }
-
-blockquote, q {
-  quotes: none; }
-
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none; }
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0; }
-
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -414,7 +367,53 @@ td,
 th {
   padding: 0; }
 
-/* Variables Globales */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
 /* Mixins de Storefront Theme */
 .clear:before,
 .entry-content:before,
@@ -438,6 +437,7 @@ th {
 .site-footer:after, .gallery:after {
   clear: both; }
 
+/* Variables Globales */
 /*!
  * Font Mfizz 2.2
  * Copyright 2013-2015 Fizzed, Inc.
@@ -7566,6 +7566,210 @@ dl.variation {
     padding-left: 2.618rem;
     padding-right: 2.618rem; } }
 
+/** Customizando Estilos */
+body,
+button,
+input,
+textarea,
+select {
+  font-family: "Asap", "Source Sans Pro", "FontAwesome", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Asap", "Source Sans Pro", "FontAwesome", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
+
+body {
+  font-size: 16px; }
+
+a {
+  text-decoration: none; }
+
+h1 {
+  font-size: 1.8rem; }
+  @media screen and (min-width: 48em) {
+    h1 {
+      font-size: 2rem; } }
+
+h2 {
+  font-size: 1.4rem; }
+  @media screen and (min-width: 48em) {
+    h2 {
+      font-size: 1.6rem; } }
+
+h3 {
+  font-size: 1.2rem; }
+  @media screen and (min-width: 48em) {
+    h3 {
+      font-size: 1.4rem; } }
+
+h4 {
+  font-size: 1.1rem; }
+  @media screen and (min-width: 48em) {
+    h4 {
+      font-size: 1.2rem; } }
+
+.hide {
+  display: none; }
+
+.show-block {
+  display: block; }
+
+.show-inline {
+  display: inline; }
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  z-index: 1000;
+  margin-left: 0; }
+
+noscript iframe.google-tag {
+  display: none;
+  visibility: hidden; }
+
+.site-footer > .col-full {
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box; }
+
+.site-footer__item {
+  box-sizing: border-box;
+  width: 25%; }
+  .site-footer__item h2 {
+    background-image: url("http://localhost/wp-content/themes/idea-storefront-child/images/fondo-footer.png");
+    background-color: auto;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 10px;
+    text-align: center; }
+
+/*
+----------------------------------------------------------------------------------
+HEADER - Barra de Navegación de Contacto y LogIn
+----------------------------------------------------------------------------------
+*/
+.site-header {
+  background-color: #ffffff; }
+  .site-header > .col-full {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+    margin-top: 1rem; }
+    .site-header > .col-full picture.logo_header {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-align: center;
+          align-items: center; }
+    .site-header > .col-full section.secondary_navigation_wrapper {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+      -ms-flex-align: center;
+          align-items: center;
+      width: 67%;
+      box-sizing: border-box; }
+      .site-header > .col-full section.secondary_navigation_wrapper nav.secondary-navigation {
+        -ms-flex-order: 4;
+            order: 4; }
+        .site-header > .col-full section.secondary_navigation_wrapper nav.secondary-navigation ul.menu li.current-menu-item > a {
+          color: #000000 !important;
+          font-weight: 700 !important; }
+          .site-header > .col-full section.secondary_navigation_wrapper nav.secondary-navigation ul.menu li.current-menu-item > a:hover {
+            color: #c44530 !important; }
+      .site-header > .col-full section.secondary_navigation_wrapper picture {
+        margin: 0 auto; }
+      .site-header > .col-full section.secondary_navigation_wrapper div.site-search {
+        width: 60%;
+        margin-left: 2rem;
+        -ms-flex-order: 2;
+            order: 2; }
+      .site-header > .col-full section.secondary_navigation_wrapper ul.site-header-cart.menu {
+        width: 30%;
+        margin-left: 2rem;
+        color: #000000 !important;
+        -ms-flex-order: 3;
+            order: 3; }
+        .site-header > .col-full section.secondary_navigation_wrapper ul.site-header-cart.menu.widget_shopping_cart {
+          background-color: #24252B; }
+  .site-header_nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+    -ms-flex-pack: center;
+        justify-content: center;
+    background-color: #F9F9F9;
+    box-sizing: border-box; }
+    .site-header_nav--item {
+      width: 100%;
+      box-sizing: border-box;
+      padding-left: 1rem;
+      display: none; }
+      @media screen and (min-width: 64em) {
+        .site-header_nav--item {
+          display: block; } }
+    .site-header_nav--nav ul li a,
+    .site-header_nav--contact i,
+    .site-header_nav--contact > span, .site-header_nav--welcome,
+    .site-header_nav--login a,
+    .site-header_nav--social a i {
+      color: #000000;
+      line-height: 2rem; }
+    @media screen and (min-width: 64em) {
+      .site-header_nav--contact {
+        width: 22%; } }
+    @media screen and (min-width: 64em) {
+      .site-header_nav--contact:nth-child(1) {
+        width: 25%; } }
+    @media screen and (min-width: 64em) {
+      .site-header_nav--welcome {
+        box-sizing: border-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 30%; } }
+    .site-header_nav--welcome--dropdown {
+      margin-left: 1rem;
+      position: relative; }
+      .site-header_nav--welcome--dropdown > button {
+        padding: 4px 1rem;
+        min-width: 125px;
+        color: #ffffff; }
+        .site-header_nav--welcome--dropdown > button:focus {
+          outline-color: transparent; }
+      .site-header_nav--welcome--dropdown > ul {
+        background-color: #EC6D4F;
+        box-sizing: border-box; }
+        .site-header_nav--welcome--dropdown > ul li {
+          width: 100%; }
+          .site-header_nav--welcome--dropdown > ul li:hover {
+            background-color: #c44530; }
+          .site-header_nav--welcome--dropdown > ul li > a {
+            padding-left: 1rem;
+            padding-right: 1rem;
+            white-space: nowrap;
+            width: 100%;
+            display: block;
+            color: #ffffff; }
+    @media screen and (min-width: 64em) {
+      .site-header_nav--social {
+        width: 10%;
+        text-align: center;
+        font-size: 1.2rem; } }
+    .site-header_nav--social a {
+      margin: 0 5px; }
+      .site-header_nav--social a > i.fa:hover {
+        color: grey; }
+
+section.storefront-primary-navigation {
+  background-color: #000000 !important; }
+
 .tipsy {
   font-size: 1rem;
   font-weight: 700;
@@ -7657,194 +7861,4 @@ dl.variation {
     border-top-color: transparent;
     border-bottom-color: transparent; }
 
-/** Customizando Estilos */
-body,
-button,
-input,
-textarea,
-select {
-  font-family: "Asap", "Source Sans Pro", "FontAwesome", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Asap", "Source Sans Pro", "FontAwesome", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
-
-body {
-  font-size: 16px; }
-
-a {
-  text-decoration: none; }
-
-h1 {
-  font-size: 1.8rem; }
-  @media screen and (min-width: 48em) {
-    h1 {
-      font-size: 2rem; } }
-
-h2 {
-  font-size: 1.4rem; }
-  @media screen and (min-width: 48em) {
-    h2 {
-      font-size: 1.6rem; } }
-
-h3 {
-  font-size: 1.2rem; }
-  @media screen and (min-width: 48em) {
-    h3 {
-      font-size: 1.4rem; } }
-
-h4 {
-  font-size: 1.1rem; }
-  @media screen and (min-width: 48em) {
-    h4 {
-      font-size: 1.2rem; } }
-
-.hide {
-  display: none; }
-
-.show-block {
-  display: block; }
-
-.show-inline {
-  display: inline; }
-
-.dropdown-menu {
-  position: absolute;
-  top: 100%;
-  z-index: 1000;
-  margin-left: 0; }
-
-noscript iframe.google-tag {
-  display: none;
-  visibility: hidden; }
-
-/*
-----------------------------------------------------------------------------------
-HEADER - Barra de Navegación de Contacto y LogIn
-----------------------------------------------------------------------------------
-*/
-.site-header {
-  background-color: #ffffff; }
-  .site-header > .col-full {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-flow: row wrap;
-        flex-flow: row wrap;
-    margin-top: 1rem; }
-    .site-header > .col-full picture.logo_header {
-      display: -ms-flexbox;
-      display: flex;
-      -ms-flex-align: center;
-          align-items: center; }
-    .site-header > .col-full section.secondary_navigation_wrapper {
-      display: -ms-flexbox;
-      display: flex;
-      -ms-flex-direction: column;
-          flex-direction: column;
-      -ms-flex-align: center;
-          align-items: center;
-      width: 67%;
-      box-sizing: border-box; }
-      .site-header > .col-full section.secondary_navigation_wrapper nav.secondary-navigation {
-        -ms-flex-order: 3;
-            order: 3; }
-        .site-header > .col-full section.secondary_navigation_wrapper nav.secondary-navigation ul.menu li.current-menu-item > a {
-          color: #000000 !important;
-          font-weight: 700 !important; }
-          .site-header > .col-full section.secondary_navigation_wrapper nav.secondary-navigation ul.menu li.current-menu-item > a:hover {
-            color: #c44530 !important; }
-  .site-header_nav {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-flow: row wrap;
-        flex-flow: row wrap;
-    -ms-flex-pack: center;
-        justify-content: center;
-    background-color: #F9F9F9;
-    box-sizing: border-box; }
-    .site-header_nav--item {
-      width: 100%;
-      box-sizing: border-box;
-      padding-left: 1rem;
-      display: none; }
-      @media screen and (min-width: 64em) {
-        .site-header_nav--item {
-          display: block; } }
-    .site-header_nav--nav ul li a,
-    .site-header_nav--contact i,
-    .site-header_nav--contact > span, .site-header_nav--welcome,
-    .site-header_nav--login a,
-    .site-header_nav--social a i {
-      color: #000000;
-      line-height: 2rem; }
-    @media screen and (min-width: 64em) {
-      .site-header_nav--contact {
-        width: 22%; } }
-    @media screen and (min-width: 64em) {
-      .site-header_nav--contact:nth-child(1) {
-        width: 25%; } }
-    @media screen and (min-width: 64em) {
-      .site-header_nav--welcome {
-        box-sizing: border-box;
-        display: -ms-flexbox;
-        display: flex;
-        width: 30%; } }
-    .site-header_nav--welcome--dropdown {
-      margin-left: 1rem;
-      position: relative; }
-      .site-header_nav--welcome--dropdown > button {
-        padding: 4px 1rem;
-        min-width: 125px;
-        color: #ffffff; }
-        .site-header_nav--welcome--dropdown > button:focus {
-          outline-color: transparent; }
-      .site-header_nav--welcome--dropdown > ul {
-        background-color: #EC6D4F;
-        box-sizing: border-box; }
-        .site-header_nav--welcome--dropdown > ul li {
-          width: 100%; }
-          .site-header_nav--welcome--dropdown > ul li:hover {
-            background-color: #c44530; }
-          .site-header_nav--welcome--dropdown > ul li > a {
-            padding-left: 1rem;
-            padding-right: 1rem;
-            white-space: nowrap;
-            width: 100%;
-            display: block;
-            color: #ffffff; }
-    @media screen and (min-width: 64em) {
-      .site-header_nav--social {
-        width: 10%;
-        text-align: center;
-        font-size: 1.2rem; } }
-    .site-header_nav--social a {
-      margin: 0 5px; }
-      .site-header_nav--social a > i.fa:hover {
-        color: grey; }
-
-section.storefront-primary-navigation {
-  background-color: #000000 !important; }
-
-.site-header-cart .widget_shopping_cart {
-  background-color: #24252B; }
-
-.site-footer > .col-full {
-  display: -ms-flexbox;
-  display: flex;
-  box-sizing: border-box; }
-
-.site-footer__item {
-  box-sizing: border-box;
-  width: 25%; }
-  .site-footer__item h2 {
-    background-image: url("http://localhost/wp-content/themes/idea-storefront-child/images/fondo-footer.png");
-    background-color: auto;
-    background-size: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding-top: 10px;
-    text-align: center; }
+/*tipsy  http://onehackoranother.com/projects/jquery/tipsy/ */
