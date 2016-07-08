@@ -4002,7 +4002,11 @@ button.menu-toggle {
     overflow: visible; }
     .main-navigation ul.menu > li > a,
     .main-navigation ul.nav-menu > li > a {
-      padding: 1.618em 1em; }
+      padding: 1.618em 1em;
+      text-transform: uppercase; }
+      .main-navigation ul.menu > li > a:hover,
+      .main-navigation ul.nav-menu > li > a:hover {
+        color: #c44530 !important; }
     .main-navigation ul.menu > li:first-child,
     .main-navigation ul.nav-menu > li:first-child {
       margin-left: -1em; }
@@ -4059,24 +4063,26 @@ button.menu-toggle {
 	 * Secondary Navigation
 	 */
   .secondary-navigation {
-    margin: 0 0 1.618em;
-    width: auto;
     clear: none;
-    line-height: 1; }
+    line-height: 1;
+    width: 100% !important;
+    margin: 0 auto !important; }
     .secondary-navigation .menu {
       font-size: .857em;
-      width: auto;
-      float: right; }
+      width: 100%;
+      text-align: center; }
       .secondary-navigation .menu > li:hover > a {
         text-decoration: none; }
       .secondary-navigation .menu > li > a {
-        position: relative; }
+        position: relative;
+        color: #000000;
+        text-transform: uppercase; }
         .secondary-navigation .menu > li > a:before {
           content: "";
           display: block;
-          width: 1px;
-          height: 25%;
-          background-color: rgba(0, 0, 0, 0.05);
+          width: 2px;
+          height: 30%;
+          background-color: rgba(0, 0, 0, 0.5);
           position: absolute;
           top: 37.5%;
           left: -3px; }
@@ -4096,7 +4102,8 @@ button.menu-toggle {
         font-weight: 300;
         color: #737781; }
         .secondary-navigation .menu a:hover {
-          text-decoration: none; } }
+          text-decoration: none;
+          color: #c44530 !important; } }
 
 /**
  * Content
@@ -7726,7 +7733,13 @@ HEADER - Barra de Navegación de Contacto y LogIn
     display: -ms-flexbox;
     display: flex;
     -ms-flex-flow: row wrap;
-        flex-flow: row wrap; }
+        flex-flow: row wrap;
+    margin-top: 1rem; }
+    .site-header > .col-full picture.logo_header {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-align: center;
+          align-items: center; }
     .site-header > .col-full section.secondary_navigation_wrapper {
       display: -ms-flexbox;
       display: flex;
@@ -7737,10 +7750,13 @@ HEADER - Barra de Navegación de Contacto y LogIn
       width: 67%;
       box-sizing: border-box; }
       .site-header > .col-full section.secondary_navigation_wrapper nav.secondary-navigation {
-        margin: 0 auto;
-        width: 100%;
         -ms-flex-order: 3;
             order: 3; }
+        .site-header > .col-full section.secondary_navigation_wrapper nav.secondary-navigation ul.menu li.current-menu-item > a {
+          color: #000000 !important;
+          font-weight: 700 !important; }
+          .site-header > .col-full section.secondary_navigation_wrapper nav.secondary-navigation ul.menu li.current-menu-item > a:hover {
+            color: #c44530 !important; }
   .site-header_nav {
     display: -ms-flexbox;
     display: flex;
