@@ -3981,7 +3981,10 @@ button.menu-toggle {
         .secondary-navigation ul ul li a {
           width: 200px; }
   ul.menu li.current-menu-item > a {
-    color: #43454b; }
+    color: #EC6D4F;
+    font-weight: 700 !important; }
+    ul.menu li.current-menu-item > a:hover {
+      color: #c44530 !important; }
   /**
 	 * Primary Navigation
 	 */
@@ -4008,7 +4011,12 @@ button.menu-toggle {
       .main-navigation ul.menu > li > a.current-menu-item, .main-navigation ul.menu > li > a.current_page_item,
       .main-navigation ul.nav-menu > li > a.current-menu-item,
       .main-navigation ul.nav-menu > li > a.current_page_item {
-        color: #ffffff !important; }
+        color: #EC6D4F !important;
+        font-weight: 700 !important; }
+        .main-navigation ul.menu > li > a.current-menu-item:hover, .main-navigation ul.menu > li > a.current_page_item:hover,
+        .main-navigation ul.nav-menu > li > a.current-menu-item:hover,
+        .main-navigation ul.nav-menu > li > a.current_page_item:hover {
+          color: #c44530 !important; }
       .main-navigation ul.menu > li > a:hover,
       .main-navigation ul.nav-menu > li > a:hover {
         color: #c44530 !important; }
@@ -7645,7 +7653,8 @@ h4 {
   margin-left: 0; }
 
 .site-header ul.menu li.current-menu-item > a {
-  color: #000000; }
+  color: #EC6D4F;
+  font-weight: 700 !important; }
 
 noscript iframe.google-tag {
   display: none;
@@ -7703,7 +7712,7 @@ HEADER - Barra de Navegación de Contacto y LogIn
         -ms-flex-order: 4;
             order: 4; }
         .site-header > .col-full section.secondary_navigation_wrapper nav.secondary-navigation ul.menu li.current-menu-item > a {
-          color: #000000 !important;
+          color: #EC6D4F !important;
           font-weight: 700 !important; }
           .site-header > .col-full section.secondary_navigation_wrapper nav.secondary-navigation ul.menu li.current-menu-item > a:hover {
             color: #c44530 !important; }
@@ -7719,6 +7728,8 @@ HEADER - Barra de Navegación de Contacto y LogIn
         margin-left: 2rem;
         -ms-flex-order: 3;
             order: 3; }
+        .site-header > .col-full section.secondary_navigation_wrapper ul.site-header-cart.menu:hover > li > a > span {
+          color: #c44530 !important; }
   .site-header_nav {
     display: -ms-flexbox;
     display: flex;
