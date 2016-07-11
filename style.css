@@ -6811,11 +6811,11 @@ p.stars {
     content: "\e020"; }
 
 .onsale {
-  border: 2px groove;
-  border-color: #43454b;
+  border: 2px solid;
+  border-color: #008000;
   color: #ffffff;
   background-color: #008000;
-  font-size: 1rem;
+  font-size: 0.9rem;
   text-transform: uppercase;
   font-weight: 700;
   display: inline-block;
@@ -7697,6 +7697,9 @@ h4 {
 .site-header ul.menu li.current-menu-item > a {
   color: #EC6D4F;
   font-weight: 700 !important; }
+
+.flexslider {
+  border: none !important; }
 
 noscript iframe.google-tag {
   display: none;
