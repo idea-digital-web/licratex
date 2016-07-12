@@ -7758,6 +7758,9 @@ noscript iframe.google-tag {
       color: #c44530; }
 
 /** Custom FromCraft */
+html .formcraft-css .powered-by {
+  display: none; }
+
 i.no-icon {
   display: none; }
 
