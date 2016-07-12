@@ -3135,9 +3135,8 @@ li {
  * Footer
  */
 .site-footer {
-  background-color: #f3f3f3;
-  color: #76787e;
-  padding: 1.618em 0 3.631em; }
+  background-color: #1E1E1E;
+  color: #76787e; }
   .site-footer h1,
   .site-footer h2,
   .site-footer h3,
@@ -3147,6 +3146,12 @@ li {
     color: #65676d; }
   .site-footer a:not(.button) {
     color: #2c2d33; }
+  .site-footer > .col-full {
+    display: -ms-flexbox;
+    display: flex;
+    box-sizing: border-box;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap; }
 
 .site-info {
   padding: 2.618em 0; }
@@ -7711,22 +7716,41 @@ noscript iframe.google-tag {
   .content-area__slides picture {
     margin: 0 0.25rem; }
 
-.site-footer > .col-full {
-  display: -ms-flexbox;
-  display: flex;
-  box-sizing: border-box; }
-
 .site-footer__item {
   box-sizing: border-box;
   width: 25%; }
   .site-footer__item h2 {
     background-image: url("http://localhost/wp-content/themes/idea-storefront-child/images/fondo-footer.png");
-    background-color: auto;
+    background-color: #1E1E1E;
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    padding-top: 10px;
-    text-align: center; }
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.3rem !important;
+    text-transform: uppercase; }
+  .site-footer__item h2,
+  .site-footer__item p,
+  .site-footer__item i,
+  .site-footer__item span {
+    color: #ffffff; }
+  .site-footer__item i {
+    margin-right: 0.5rem; }
+  .site-footer__item a {
+    color: #ffffff !important;
+    font-weight: 300 !important; }
+    .site-footer__item a:hover {
+      color: #c44530 !important; }
+
+.site-footer__credits {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center; }
+  .site-footer__credits a {
+    color: #EC6D4F;
+    font-weight: 300; }
+    .site-footer__credits a:hover {
+      color: #c44530; }
 
 /*
 ----------------------------------------------------------------------------------
