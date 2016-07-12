@@ -3136,7 +3136,8 @@ li {
  */
 .site-footer {
   background-color: #1E1E1E;
-  color: #76787e; }
+  color: #76787e;
+  padding: 0; }
   .site-footer h1,
   .site-footer h2,
   .site-footer h3,
@@ -7728,19 +7729,23 @@ noscript iframe.google-tag {
     text-align: center;
     font-weight: 300;
     font-size: 1.3rem !important;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    margin: 1.5rem 0; }
   .site-footer__item h2,
   .site-footer__item p,
   .site-footer__item i,
   .site-footer__item span {
     color: #ffffff; }
   .site-footer__item i {
-    margin-right: 0.5rem; }
+    margin-right: 0.5rem;
+    margin-left: 0.5rem; }
   .site-footer__item a {
     color: #ffffff !important;
     font-weight: 300 !important; }
     .site-footer__item a:hover {
       color: #c44530 !important; }
+  .site-footer__item--contact {
+    padding: 0 1rem; }
 
 .site-footer__credits {
   background-color: #000000;
@@ -7751,6 +7756,23 @@ noscript iframe.google-tag {
     font-weight: 300; }
     .site-footer__credits a:hover {
       color: #c44530; }
+
+/** Custom FromCraft */
+i.no-icon {
+  display: none; }
+
+.form-element-html .submit-button {
+  background-color: #EC6D4F !important; }
+  .form-element-html .submit-button:hover {
+    background-color: #c44530 !important; }
+
+/** 
+ * Form Footer
+  * Agregar el ID del fc-form- correspondiente
+ */
+footer .formcraft-css .fc-form.fc-form-1 {
+  height: 355px !important;
+  width: 100% !important; }
 
 /*
 ----------------------------------------------------------------------------------
