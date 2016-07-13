@@ -5875,7 +5875,7 @@ ul.products {
     ul.products li.product:hover .price {
       color: #126612; }
     ul.products li.product:hover h3 {
-      color: #1E1E1E; }
+      color: #4f514f; }
     ul.products li.product .star-rating,
     ul.products li.product .price {
       margin: 0 auto 1em; }
@@ -7720,18 +7720,31 @@ h4 {
   color: #EC6D4F;
   font-weight: 700 !important; }
 
-.flexslider {
-  border: none !important; }
-
 noscript iframe.google-tag {
   display: none;
   visibility: hidden; }
 
+.flexslider {
+  display: none; }
+  @media screen and (min-width: 48em) {
+    .flexslider {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-align: center;
+          align-items: center;
+      border: none !important; } }
+
 .content-area__slides {
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column; }
   .content-area__slides picture {
     margin: 0 0.25rem; }
+  @media screen and (min-width: 48em) {
+    .content-area__slides {
+      -ms-flex-direction: row;
+          flex-direction: row; } }
 
 .site-footer__item {
   box-sizing: border-box;
@@ -7819,17 +7832,23 @@ HEADER - Barra de Navegación de Contacto y LogIn
         flex-flow: row wrap;
     margin-top: 1rem; }
     .site-header > .col-full picture.logo_header {
-      display: -ms-flexbox;
-      display: flex;
-      -ms-flex-align: center;
-          align-items: center; }
+      display: none; }
+      @media screen and (min-width: 48em) {
+        .site-header > .col-full picture.logo_header {
+          display: -ms-flexbox;
+          display: flex;
+          -ms-flex-align: center;
+              align-items: center; } }
     .site-header > .col-full section.secondary_navigation_wrapper {
-      display: -ms-flexbox;
-      display: flex;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-      width: 67%;
-      box-sizing: border-box; }
+      display: none; }
+      @media screen and (min-width: 48em) {
+        .site-header > .col-full section.secondary_navigation_wrapper {
+          display: -ms-flexbox;
+          display: flex;
+          -ms-flex-flow: row wrap;
+              flex-flow: row wrap;
+          width: 67%;
+          box-sizing: border-box; } }
       .site-header > .col-full section.secondary_navigation_wrapper nav.secondary-navigation {
         -ms-flex-order: 4;
             order: 4; }
