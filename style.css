@@ -5905,7 +5905,8 @@ ul.products {
     ul.products li.product .view-details {
       padding: 1rem 2rem;
       background-color: #EC6D4F;
-      color: white; }
+      color: white;
+      text-transform: uppercase; }
 
 .price del {
   opacity: .5;
