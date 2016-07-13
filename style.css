@@ -5869,6 +5869,11 @@ ul.products {
       border: 1px solid gray; }
     ul.products li.product:hover .view-details {
       background-color: #c44530; }
+    ul.products li.product:hover .onsale {
+      background-color: #126612;
+      border-color: #126612; }
+    ul.products li.product:hover .price {
+      color: #126612; }
     ul.products li.product .star-rating,
     ul.products li.product .price {
       margin: 0 auto 1em; }
