@@ -5865,6 +5865,10 @@ ul.products {
     margin-bottom: 4.236em;
     text-align: center;
     position: relative; }
+    ul.products li.product:hover img {
+      border: 1px solid gray; }
+    ul.products li.product:hover .view-details {
+      background-color: #c44530; }
     ul.products li.product .star-rating,
     ul.products li.product .price {
       margin: 0 auto 1em; }
@@ -5889,7 +5893,12 @@ ul.products {
     ul.products li.product.product-category img {
       margin-bottom: 1.618em; }
     ul.products li.product .button {
-      margin-bottom: .236em; }
+      margin-bottom: .236em;
+      display: none; }
+    ul.products li.product .view-details {
+      padding: 1rem 2rem;
+      background-color: #EC6D4F;
+      color: white; }
 
 .price del {
   opacity: .5;
