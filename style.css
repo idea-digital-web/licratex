@@ -7719,18 +7719,25 @@ noscript iframe.google-tag {
 
 .site-footer__item {
   box-sizing: border-box;
-  width: 25%; }
+  width: 100%; }
+  @media screen and (min-width: 48em) {
+    .site-footer__item {
+      width: 50%; } }
+  @media screen and (min-width: 64em) {
+    .site-footer__item {
+      width: 25%; } }
   .site-footer__item h2 {
     background-image: url("http://localhost/wp-content/themes/idea-storefront-child/images/fondo-footer.png");
     background-color: #1E1E1E;
-    background-size: 100%;
+    background-size: 100% 3rem;
     background-position: center;
     background-repeat: no-repeat;
     text-align: center;
     font-weight: 300;
     font-size: 1.3rem !important;
     text-transform: uppercase;
-    margin: 1.5rem 0; }
+    margin: 1.5rem 0;
+    line-height: 3rem; }
   .site-footer__item h2,
   .site-footer__item p,
   .site-footer__item i,
@@ -7774,7 +7781,7 @@ i.no-icon {
   * Agregar el ID del fc-form- correspondiente
  */
 footer .formcraft-css .fc-form.fc-form-1 {
-  height: 355px !important;
+  height: 390px !important;
   width: 100% !important; }
 
 /*
