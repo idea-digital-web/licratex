@@ -5874,6 +5874,8 @@ ul.products {
       margin: 0 auto 1em; }
     ul.products li.product .woocommerce-LoopProduct-link {
       display: block; }
+      ul.products li.product .woocommerce-LoopProduct-link:focus {
+        outline: none; }
     ul.products li.product .price {
       display: block;
       color: #008000;
