@@ -5866,7 +5866,7 @@ ul.products {
     text-align: center;
     position: relative; }
     ul.products li.product:hover img {
-      border: 1px solid gray; }
+      border: 1px solid #c44530; }
     ul.products li.product:hover .view-details {
       background-color: #c44530; }
     ul.products li.product:hover .onsale {
@@ -5874,6 +5874,8 @@ ul.products {
       border-color: #126612; }
     ul.products li.product:hover .price {
       color: #126612; }
+    ul.products li.product:hover h3 {
+      color: #1E1E1E; }
     ul.products li.product .star-rating,
     ul.products li.product .price {
       margin: 0 auto 1em; }
@@ -5890,7 +5892,8 @@ ul.products {
         margin-left: .618em;
         background-color: transparent; }
     ul.products li.product h3 {
-      font-size: 1.1em; }
+      font-size: 1.1em;
+      height: 2.5em; }
     ul.products li.product .star-rating {
       font-size: .857em; }
     ul.products li.product img {
