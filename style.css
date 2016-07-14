@@ -5906,10 +5906,16 @@ ul.products {
       margin-bottom: .236em;
       display: none; }
     ul.products li.product .view-details {
-      padding: 1rem 2rem;
+      display: block;
+      margin-top: 0.5rem;
+      padding: 0.5rem;
       background-color: #EC6D4F;
       color: white;
       text-transform: uppercase; }
+      @media screen and (min-width: 48em) {
+        ul.products li.product .view-details {
+          margin-top: 1rem;
+          padding: 1rem 2rem; } }
 
 .price del {
   opacity: .5;
@@ -7740,7 +7746,14 @@ noscript iframe.google-tag {
   -ms-flex-direction: column;
       flex-direction: column; }
   .content-area__slides picture {
-    margin: 0 0.25rem; }
+    margin: 0.5rem 0;
+    width: 100%; }
+    @media screen and (min-width: 48em) {
+      .content-area__slides picture {
+        margin: 0 0.5rem;
+        width: 33%; } }
+    .content-area__slides picture img {
+      width: 100%; }
   @media screen and (min-width: 48em) {
     .content-area__slides {
       -ms-flex-direction: row;
