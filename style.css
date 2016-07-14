@@ -3691,7 +3691,7 @@ input[type="submit"],
   input[type="submit"]:focus,
   .button:focus,
   .added_to_cart:focus {
-    outline: 2px solid #EC6D4F; }
+    outline: none; }
   button.added:after,
   input[type="button"].added:after,
   input[type="reset"].added:after,
@@ -4656,33 +4656,28 @@ video {
 
 .widget_search form,
 .widget_product_search form {
-  position: relative; }
+  position: relative;
+  display: -ms-flexbox;
+  display: flex; }
   .widget_search form input[type=text],
   .widget_search form input[type=search],
   .widget_product_search form input[type=text],
   .widget_product_search form input[type=search] {
     width: 100%;
     padding-left: 2.618em; }
+  .widget_search form input[type=search],
+  .widget_product_search form input[type=search] {
+    -ms-flex-order: 2;
+        order: 2;
+    border-radius: 15px; }
   .widget_search form input[type=submit],
   .widget_product_search form input[type=submit] {
-    clip: rect(1px 1px 1px 1px);
-    /* IE6, IE7 */
-    clip: rect(1px, 1px, 1px, 1px);
-    position: absolute !important;
-    top: 0;
-    left: 0; }
+    position: relative !important;
+    margin-right: 0.5rem;
+    border-radius: 15px; }
   .widget_search form:before,
   .widget_product_search form:before {
-    display: inline-block;
-    font: normal normal normal 1em/1 FontAwesome;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    content: "\f002";
-    position: absolute;
-    top: 1em;
-    left: 1em; }
+    display: none; }
 
 .widget_recent_entries ul,
 .widget_pages ul,
@@ -5703,21 +5698,11 @@ a#variations_clear {
   .site-search .widget_product_search input[type=text],
   .site-search .widget_product_search input[type=search] {
     padding: 1.387em 1.618em;
-    line-height: 1;
-    padding-left: 5em; }
+    line-height: 1; }
   .site-search .widget_product_search form:before {
-    background-color: #EC6D4F;
-    padding: 20.5px;
-    top: 0;
-    left: 0;
-    color: #ffffff; }
+    display: none; }
   .site-search .widget_product_search form:hover:before {
     background-color: #c44530; }
-  .site-search .widget_product_search #searchsubmit {
-    clip: rect(1px 1px 1px 1px);
-    /* IE6, IE7 */
-    clip: rect(1px, 1px, 1px, 1px);
-    position: absolute !important; }
 
 /**
  * Handheld footer bar
