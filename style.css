@@ -3535,9 +3535,10 @@ a {
     float: right;
     margin-right: 0; }
   .right-sidebar .content-area {
-    width: 73.91304%;
+    width: 100%;
     float: left;
-    margin-right: 4.34783%; }
+    margin-left: 0;
+    margin-right: 0; }
   .right-sidebar .widget-area {
     width: 21.73913%;
     float: right;
@@ -6849,7 +6850,8 @@ p.stars {
   margin-bottom: 2.618em; }
 
 .woocommerce-tabs {
-  padding: 1em 0; }
+  padding: 1em 0;
+  display: none; }
   .woocommerce-tabs ul.tabs {
     list-style: none;
     margin-left: 0;
