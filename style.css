@@ -3527,9 +3527,10 @@ a {
     content: "";
     display: table; }
   .content-area {
-    width: 73.91304%;
+    width: 100%;
     float: left;
-    margin-right: 4.34783%; }
+    margin-left: 0;
+    margin-right: 0; }
   .widget-area {
     width: 21.73913%;
     float: right;
@@ -5872,7 +5873,8 @@ ul.products {
     ul.products li.product .price {
       display: block;
       color: #008000;
-      font-weight: 400; }
+      font-weight: 400;
+      font-size: 1.2rem; }
       ul.products li.product .price ins {
         font-weight: 700;
         margin-left: .618em;
@@ -7669,6 +7671,8 @@ body {
 
 a {
   text-decoration: none; }
+  a:focus {
+    outline: none; }
 
 h1 {
   font-size: 1.8rem; }
@@ -7944,6 +7948,23 @@ HEADER - Barra de Navegación de Contacto y LogIn
 
 .site-header-cart .widget_shopping_cart {
   background-color: #24252B; }
+
+@media screen and (min-width: 48em) {
+  .single-product div.product .images {
+    width: 40%;
+    margin-right: 0; }
+  .single-product div.product .summary {
+    width: 60%; }
+    .single-product div.product .summary > h1 {
+      width: 80%; }
+  .single-product div.product p.price {
+    font-size: 3rem !important;
+    margin-bottom: 1rem !important; }
+  .single-product div.product form.cart .button {
+    float: left !important;
+    background-color: #008000 !important; }
+    .single-product div.product form.cart .button:hover {
+      background-color: #126612 !important; } }
 
 .tipsy {
   font-size: 1rem;
