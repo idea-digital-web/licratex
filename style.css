@@ -7902,6 +7902,8 @@ HEADER - Barra de Navegación de Contacto y LogIn
     .site-header_nav--social a i {
       color: #000000;
       line-height: 2rem; }
+    .site-header_nav--contact > a {
+      font-weight: 300; }
     @media screen and (min-width: 64em) {
       .site-header_nav--contact {
         width: 22%; } }
@@ -7948,6 +7950,14 @@ HEADER - Barra de Navegación de Contacto y LogIn
       margin: 0 5px; }
       .site-header_nav--social a > i.fa:hover {
         color: grey; }
+
+/**
+ * Barra de Navegación Principal
+ */
+.main-navigation ul.menu ul.sub-menu {
+  background-color: #EC6D4F !important; }
+  .main-navigation ul.menu ul.sub-menu > li:hover {
+    background-color: #c44530 !important; }
 
 .site-header-cart .widget_shopping_cart {
   background-color: #24252B; }
