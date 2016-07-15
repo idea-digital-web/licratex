@@ -5873,7 +5873,7 @@ ul.products {
     ul.products li.product .price {
       display: block;
       color: #008000;
-      font-weight: 400;
+      font-weight: 700;
       font-size: 1.2rem; }
       ul.products li.product .price ins {
         font-weight: 700;
@@ -7953,6 +7953,12 @@ HEADER - Barra de Navegación de Contacto y LogIn
   .single-product div.product .images {
     width: 40%;
     margin-right: 0; }
+    .single-product div.product .images > a img {
+      width: 450px; }
+    .single-product div.product .images > .thumbnails .zoom {
+      width: 100px !important;
+      height: 100px;
+      margin: 0 !important; }
   .single-product div.product .summary {
     width: 60%; }
     .single-product div.product .summary > h1 {
