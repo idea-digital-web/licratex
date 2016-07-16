@@ -7871,7 +7871,10 @@ HEADER - Barra de Navegación de Contacto y LogIn
           display: -ms-flexbox;
           display: flex;
           -ms-flex-align: center;
-              align-items: center; } }
+              align-items: center;
+          width: 300px;
+          height: 300px;
+          margin-right: 1rem; } }
     .site-header > .col-full section.secondary_navigation_wrapper {
       display: none; }
       @media screen and (min-width: 48em) {
@@ -7881,7 +7884,9 @@ HEADER - Barra de Navegación de Contacto y LogIn
           -ms-flex-flow: row wrap;
               flex-flow: row wrap;
           width: 67%;
-          box-sizing: border-box; } }
+          box-sizing: border-box;
+          height: 300px;
+          padding: 1rem 0; } }
       .site-header > .col-full section.secondary_navigation_wrapper nav.secondary-navigation {
         -ms-flex-order: 4;
             order: 4; }
@@ -7896,10 +7901,12 @@ HEADER - Barra de Navegación de Contacto y LogIn
         width: 68%;
         margin-left: 2rem;
         -ms-flex-order: 2;
-            order: 2; }
+            order: 2;
+        height: 0; }
       .site-header > .col-full section.secondary_navigation_wrapper ul.site-header-cart.menu {
         width: 22%;
         margin-left: 2rem;
+        height: 0;
         -ms-flex-order: 3;
             order: 3; }
         .site-header > .col-full section.secondary_navigation_wrapper ul.site-header-cart.menu:hover > li > a > span {
