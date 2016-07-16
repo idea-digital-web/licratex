@@ -4020,7 +4020,6 @@ button.menu-toggle {
       border-top: 5px solid transparent;
       border-bottom: 5px solid transparent;
       font-weight: 200 !important;
-      font-size: 1.5rem;
       font-size: 1.5rem !important; }
       .main-navigation ul.menu > li > a.current-menu-item, .main-navigation ul.menu > li > a.current_page_item,
       .main-navigation ul.nav-menu > li > a.current-menu-item,
@@ -4669,7 +4668,7 @@ video {
   .widget_product_search form input[type=text],
   .widget_product_search form input[type=search] {
     width: 100%;
-    padding-left: 2.618em; }
+    padding: 0 0 0 6rem !important; }
   .widget_search form input[type=search],
   .widget_product_search form input[type=search] {
     -ms-flex-order: 2;
@@ -4677,15 +4676,27 @@ video {
     border-radius: 15px; }
   .widget_search form input[type=submit],
   .widget_product_search form input[type=submit] {
-    position: relative !important;
-    margin-right: 0.5rem;
-    border-radius: 15px;
-    padding: 0.5rem 2.5rem;
-    font-size: 1.5rem;
-    font-weight: 300; }
+    clip: rect(1px 1px 1px 1px);
+    /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    border-radius: 15px; }
   .widget_search form:before,
   .widget_product_search form:before {
-    display: none; }
+    display: inline-block;
+    font: normal normal normal 1em/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\f002";
+    content: "Buscar";
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    border-radius: 15px; }
 
 .widget_recent_entries ul,
 .widget_pages ul,
@@ -5700,15 +5711,26 @@ a#variations_clear {
         margin-left: 1em; }
 
 .site-search {
-  font-size: .857em;
+  font-size: 1.2rem;
   clear: both;
   display: none; }
   .site-search .widget_product_search input[type=text],
   .site-search .widget_product_search input[type=search] {
-    padding: 1.387em 1.618em;
-    line-height: 1; }
+    line-height: 3rem;
+    padding: 0 0 0 9.5rem !important;
+    font-size: 1.5rem;
+    font-style: italic;
+    border: 5px solid #F9F9F9;
+    background-color: #ffffff; }
   .site-search .widget_product_search form:before {
-    display: none; }
+    border: 5px solid #F9F9F9;
+    padding: 0 2rem;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    background-color: #EC6D4F;
+    top: 0;
+    left: 0;
+    color: #ffffff; }
   .site-search .widget_product_search form:hover:before {
     background-color: #c44530; }
 
