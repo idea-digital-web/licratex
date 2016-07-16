@@ -5721,7 +5721,8 @@ a#variations_clear {
     font-size: 1.5rem;
     font-style: italic;
     border: 5px solid #F9F9F9;
-    background-color: #ffffff; }
+    background-color: #ffffff;
+    box-shadow: none !important; }
   .site-search .widget_product_search form:before {
     border: 5px solid #F9F9F9;
     padding: 0 2rem;
