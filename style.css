@@ -3488,6 +3488,11 @@ a {
     float: right;
     margin-right: 0;
     clear: none; }
+  .woocommerce-active .site-header .main-navigation {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0; }
   .site-branding .site-description {
     margin-bottom: 0;
     display: block; }
@@ -3883,7 +3888,7 @@ button.menu-toggle {
   display: none; }
 
 .main-navigation {
-  width: 100% !important;
+  width: 175%;
   margin-right: 0 !important; }
   .main-navigation::after {
     clear: both;
@@ -8040,6 +8045,8 @@ HEADER - Barra de Navegación de Contacto y LogIn
   top: 0 !important;
   text-align: center !important;
   width: 100% !important; }
+  .sticky > .main-navigation {
+    width: 100%; }
 
 .tipsy {
   font-size: 1rem;
@@ -8133,6 +8140,9 @@ HEADER - Barra de Navegación de Contacto y LogIn
     border-bottom-color: transparent; }
 
 /*tipsy  http://onehackoranother.com/projects/jquery/tipsy/ */
-.widget_shopping_cart a.button {
-  background-color: #EC6D4F;
-  border-color: #EC6D4F; }
+a.button.wc-forward {
+  background-color: #EC6D4F !important;
+  border-color: #EC6D4F !important; }
+
+.site-header .main-navigation {
+  width: 175%; }
