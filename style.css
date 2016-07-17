@@ -3137,7 +3137,8 @@ li {
 .site-footer {
   background-color: #1E1E1E;
   color: #76787e;
-  padding: 0; }
+  padding: 0;
+  padding-bottom: 1rem; }
   .site-footer h1,
   .site-footer h2,
   .site-footer h3,
@@ -7819,7 +7820,9 @@ noscript iframe.google-tag {
 .site-footer__credits {
   background-color: #000000;
   color: #ffffff;
-  text-align: center; }
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem; }
   .site-footer__credits a {
     color: #EC6D4F;
     font-weight: 300; }
