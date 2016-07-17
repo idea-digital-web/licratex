@@ -8038,7 +8038,8 @@ HEADER - Barra de Navegación de Contacto y LogIn
   left: 0 !important;
   padding: 0 !important;
   top: 0 !important;
-  text-align: center !important; }
+  text-align: center !important;
+  width: 100% !important; }
 
 .tipsy {
   font-size: 1rem;
