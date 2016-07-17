@@ -7872,8 +7872,8 @@ HEADER - Barra de Navegación de Contacto y LogIn
           display: flex;
           -ms-flex-align: center;
               align-items: center;
-          width: 300px;
-          height: 300px;
+          width: 225px;
+          height: 225px;
           margin-right: 1rem; } }
     .site-header > .col-full section.secondary_navigation_wrapper {
       display: none; }
@@ -7885,18 +7885,20 @@ HEADER - Barra de Navegación de Contacto y LogIn
               flex-flow: row wrap;
           width: 67%;
           box-sizing: border-box;
-          height: 300px;
-          padding: 1rem 0; } }
+          padding: 1rem 0;
+          height: 0; } }
       .site-header > .col-full section.secondary_navigation_wrapper nav.secondary-navigation {
         -ms-flex-order: 4;
-            order: 4; }
+            order: 4;
+        height: 0;
+        margin-top: 1rem !important; }
         .site-header > .col-full section.secondary_navigation_wrapper nav.secondary-navigation ul.menu li.current-menu-item > a {
           color: #EC6D4F !important;
           font-weight: 700 !important; }
           .site-header > .col-full section.secondary_navigation_wrapper nav.secondary-navigation ul.menu li.current-menu-item > a:hover {
             color: #c44530 !important; }
       .site-header > .col-full section.secondary_navigation_wrapper picture {
-        margin: 0 auto; }
+        margin: 0 auto 1rem auto; }
       .site-header > .col-full section.secondary_navigation_wrapper div.site-search {
         width: 68%;
         margin-left: 2rem;
