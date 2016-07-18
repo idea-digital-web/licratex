@@ -3135,7 +3135,7 @@ li {
  * Footer
  */
 .site-footer {
-  background-color: #1E1E1E;
+  background-color: #1c1b20;
   color: #76787e;
   padding: 0;
   padding-bottom: 1rem; }
@@ -7795,17 +7795,13 @@ noscript iframe.google-tag {
     .site-footer__item {
       width: 25%; } }
   .site-footer__item h2 {
-    background-image: url("http://localhost/wp-content/themes/idea-storefront-child/images/fondo-footer.png");
-    background-color: #1E1E1E;
-    background-size: 100% 3rem;
-    background-position: center;
-    background-repeat: no-repeat;
     text-align: center;
     font-weight: 300;
     font-size: 1.3rem !important;
     text-transform: uppercase;
-    margin: 1.5rem 0;
-    line-height: 3rem; }
+    margin: 1.5rem 0.5rem;
+    line-height: 3rem;
+    border: 3px solid #EC6D4F; }
   .site-footer__item h2,
   .site-footer__item p,
   .site-footer__item i,
@@ -7823,7 +7819,7 @@ noscript iframe.google-tag {
     padding: 0 1rem; }
 
 .site-footer__credits {
-  background-color: #000000;
+  background-color: #17161a;
   color: #ffffff;
   text-align: center;
   padding-top: 1rem;
@@ -7852,12 +7848,13 @@ i.no-icon {
  */
 footer .formcraft-css .fc-form.fc-form-1 {
   height: 390px !important;
-  width: 100% !important; }
+  width: 90% !important;
+  margin: 0 auto; }
 
 footer .formcraft-css .fc-form .form-element .form-element-html {
   padding: 0;
   padding-right: 1rem;
-  margin-bottom: 1rem; }
+  margin-bottom: 0.5rem !important; }
 
 /*
 ----------------------------------------------------------------------------------
