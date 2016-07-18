@@ -3991,9 +3991,12 @@ button.menu-toggle {
         top: 100%;
         z-index: 99999;
         display: none; }
-        .main-navigation ul ul li a,
-        .secondary-navigation ul ul li a {
-          width: 200px; }
+        .main-navigation ul ul li,
+        .secondary-navigation ul ul li {
+          width: 100%; }
+          .main-navigation ul ul li a,
+          .secondary-navigation ul ul li a {
+            width: 100%; }
   ul.menu li.current-menu-item > a {
     color: #EC6D4F;
     font-weight: 700 !important; }
@@ -4702,7 +4705,8 @@ video {
     position: absolute;
     top: 1em;
     left: 1em;
-    border-radius: 15px; }
+    border-radius: 15px;
+    font-family: "Asap", "Source Sans Pro", "FontAwesome", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
 
 .widget_recent_entries ul,
 .widget_pages ul,
@@ -7991,6 +7995,9 @@ HEADER - Barra de Navegación de Contacto y LogIn
             color: #ffffff; }
             .site-header_nav--welcome--dropdown > ul li > a i {
               margin-right: 0.5rem; }
+    .site-header_nav--login a,
+    .site-header_nav--login a > i {
+      font-weight: 300 !important; }
     @media screen and (min-width: 64em) {
       .site-header_nav--social {
         width: 10%;
