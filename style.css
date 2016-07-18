@@ -7871,7 +7871,10 @@ footer .formcraft-css .fc-form .form-element .form-element-html {
   padding-right: 1rem;
   margin-bottom: 0.5rem !important; }
 
-iframe {
+/**
+ * Estilos personalizados de Google Maps
+ */
+.site-content > iframe {
   margin-bottom: -5px; }
 
 /*
