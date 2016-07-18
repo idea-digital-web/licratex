@@ -8057,6 +8057,8 @@ a.button.wc-forward {
     width: 60%; }
     .single-product div.product .summary > h1 {
       width: 80%; }
+    .single-product div.product .summary > p.stock {
+      display: none; }
   .single-product div.product p.price {
     font-size: 3rem !important;
     margin-bottom: 1rem !important; }
