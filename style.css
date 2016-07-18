@@ -7804,7 +7804,7 @@ noscript iframe.google-tag {
     font-weight: 300;
     font-size: 1.3rem !important;
     text-transform: uppercase;
-    margin: 1.5rem 0.5rem;
+    margin: 1.5rem 1rem;
     line-height: 3rem;
     border: 3px solid #EC6D4F; }
   .site-footer__item p {
@@ -7823,7 +7823,8 @@ noscript iframe.google-tag {
   .site-footer__item--nav ul.site-footer__item--nav-categories {
     margin-left: 1.2rem !important;
     font-size: 1.25rem;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    text-align: center; }
 
 .site-footer__credits {
   background-color: #17161a;
@@ -7855,7 +7856,7 @@ i.no-icon {
  */
 footer .formcraft-css .fc-form.fc-form-1 {
   height: 350px !important;
-  width: 90% !important;
+  width: 85% !important;
   margin: 0 auto; }
 
 footer .formcraft-css .fc-form .form-element .form-element-html {
