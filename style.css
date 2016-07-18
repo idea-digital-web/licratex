@@ -7794,6 +7794,11 @@ noscript iframe.google-tag {
   @media screen and (min-width: 64em) {
     .site-footer__item {
       width: 25%; } }
+  .site-footer__item h2,
+  .site-footer__item p,
+  .site-footer__item i,
+  .site-footer__item span {
+    color: #ffffff; }
   .site-footer__item h2 {
     text-align: center;
     font-weight: 300;
@@ -7802,11 +7807,8 @@ noscript iframe.google-tag {
     margin: 1.5rem 0.5rem;
     line-height: 3rem;
     border: 3px solid #EC6D4F; }
-  .site-footer__item h2,
-  .site-footer__item p,
-  .site-footer__item i,
-  .site-footer__item span {
-    color: #ffffff; }
+  .site-footer__item p {
+    margin-top: 1.618em; }
   .site-footer__item i {
     margin-right: 0.5rem;
     margin-left: 0.5rem; }
@@ -7852,7 +7854,7 @@ i.no-icon {
   * Agregar el ID del fc-form- correspondiente
  */
 footer .formcraft-css .fc-form.fc-form-1 {
-  height: 390px !important;
+  height: 350px !important;
   width: 90% !important;
   margin: 0 auto; }
 
