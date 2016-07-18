@@ -5890,7 +5890,9 @@ ul.products {
     ul.products li.product:hover img {
       border: 1px solid #c44530; }
     ul.products li.product:hover .view-details {
-      background-color: #c44530; }
+      background-color: #c44530;
+      border: 2px solid #c44530;
+      color: #ffffff; }
     ul.products li.product:hover .onsale {
       background-color: #126612;
       border-color: #126612; }
@@ -5932,8 +5934,8 @@ ul.products {
       display: block;
       margin-top: 0.5rem;
       padding: 0.5rem;
-      background-color: #EC6D4F;
-      color: white;
+      border: 2px solid #000000;
+      color: #000000;
       text-transform: uppercase; }
       @media screen and (min-width: 48em) {
         ul.products li.product .view-details {
@@ -8007,6 +8009,23 @@ HEADER - Barra de Navegación de Contacto y LogIn
   .main-navigation ul.menu ul.sub-menu > li:hover {
     background-color: #c44530 !important; }
 
+/**
+ * Botones del Dropdown Menu al hacer hover en el carrito
+ */
+a.button.checkout.wc-forward {
+  background-color: #2c2d33 !important;
+  border-color: #2c2d33 !important; }
+  a.button.checkout.wc-forward:hover {
+    background-color: #13141a !important;
+    border-color: #13141a !important; }
+
+a.button.wc-forward {
+  background-color: #EC6D4F !important;
+  border-color: #EC6D4F !important; }
+  a.button.wc-forward:hover {
+    background-color: #c44530 !important;
+    border-color: #c44530 !important; }
+
 .site-header-cart .widget_shopping_cart {
   background-color: #24252B; }
 
@@ -8145,19 +8164,5 @@ HEADER - Barra de Navegación de Contacto y LogIn
     border-bottom-color: transparent; }
 
 /*tipsy  http://onehackoranother.com/projects/jquery/tipsy/ */
-a.button.checkout.wc-forward {
-  background-color: #2c2d33 !important;
-  border-color: #2c2d33 !important; }
-  a.button.checkout.wc-forward:hover {
-    background-color: #13141a !important;
-    border-color: #13141a !important; }
-
-a.button.wc-forward {
-  background-color: #EC6D4F !important;
-  border-color: #EC6D4F !important; }
-  a.button.wc-forward:hover {
-    background-color: #c44530 !important;
-    border-color: #c44530 !important; }
-
 .site-header .main-navigation {
   width: 175%; }
