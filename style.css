@@ -3996,7 +3996,8 @@ button.menu-toggle {
           width: 100%; }
           .main-navigation ul ul li a,
           .secondary-navigation ul ul li a {
-            width: 100%; }
+            width: 100%;
+            color: #ffffff; }
   ul.menu li.current-menu-item > a {
     color: #EC6D4F;
     font-weight: 700 !important; }
