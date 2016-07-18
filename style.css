@@ -7816,7 +7816,12 @@ noscript iframe.google-tag {
     .site-footer__item a:hover {
       color: #c44530 !important; }
   .site-footer__item--contact {
-    padding: 0 1rem; }
+    padding: 0 1rem;
+    font-size: 1.2rem; }
+  .site-footer__item--nav ul.site-footer__item--nav-categories {
+    margin-left: 1.2rem !important;
+    font-size: 1.25rem;
+    text-transform: uppercase; }
 
 .site-footer__credits {
   background-color: #17161a;
