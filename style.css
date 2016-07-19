@@ -5913,14 +5913,20 @@ ul.products {
       ul.products li.product .woocommerce-LoopProduct-link:focus {
         outline: none; }
     ul.products li.product .price {
-      display: block;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
       color: #008000;
       font-weight: 700;
       font-size: 1.2rem; }
+      ul.products li.product .price del {
+        margin: 0 auto; }
       ul.products li.product .price ins {
         font-weight: 700;
-        margin-left: .618em;
-        background-color: transparent; }
+        margin: 0 auto;
+        background-color: transparent;
+        font-size: 2rem; }
     ul.products li.product h3 {
       font-size: 1.1em;
       height: 2.5em; }
@@ -7875,7 +7881,7 @@ footer .formcraft-css .fc-form .form-element .form-element-html {
  * Estilos personalizados de Google Maps
  */
 .site-content > iframe {
-  margin-bottom: -5px !important; }
+  margin-bottom: -5px; }
 
 /*
 ----------------------------------------------------------------------------------
