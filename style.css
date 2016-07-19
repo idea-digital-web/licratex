@@ -7729,8 +7729,13 @@ h4 {
       font-size: 1.2rem; } }
 
 .section_title, .storefront-product-section .section-title, header.entry-header > h1.entry-title,
+header.page-header > h1.page-title,
+main.site-main > h1.page-title,
 .related.products > h2,
-.cross-sells > h2 {
+.cross-sells > h2,
+.col-1 > h2,
+.col-2 > h2,
+.page-content > h2 {
   text-align: left;
   margin-bottom: 0.5rem;
   text-transform: uppercase;
@@ -7739,8 +7744,13 @@ h4 {
   font-size: 1.8rem; }
   @media screen and (min-width: 48em) {
     .section_title, .storefront-product-section .section-title, header.entry-header > h1.entry-title,
+    header.page-header > h1.page-title,
+    main.site-main > h1.page-title,
     .related.products > h2,
-    .cross-sells > h2 {
+    .cross-sells > h2,
+    .col-1 > h2,
+    .col-2 > h2,
+    .page-content > h2 {
       font-size: 2.2rem; } }
 
 .title__borderbottom, .section-title__borderbottom {
