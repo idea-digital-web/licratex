@@ -4082,7 +4082,7 @@ button.menu-toggle {
       .main-navigation ul.nav-menu ul li a {
         padding: .857em 1.387em;
         font-weight: 400;
-        font-size: .857em; }
+        font-size: 1.2rem; }
       .main-navigation ul.menu ul li:last-child,
       .main-navigation ul.nav-menu ul li:last-child {
         border-bottom: 0; }
