@@ -5920,13 +5920,16 @@ ul.products {
       color: #008000;
       font-weight: 700;
       font-size: 1.2rem; }
-      ul.products li.product .price del {
-        margin: 0 auto; }
-      ul.products li.product .price ins {
+      ul.products li.product .price ins,
+      ul.products li.product .price span.amount {
         font-weight: 700;
         margin: 0 auto;
         background-color: transparent;
-        font-size: 2rem; }
+        font-size: 1.5rem; }
+      ul.products li.product .price del {
+        margin: 0 auto; }
+        ul.products li.product .price del > span.amount {
+          font-size: 1.2rem !important; }
     ul.products li.product h3 {
       font-size: 1.1em;
       height: 2.5em; }
