@@ -10,7 +10,7 @@
  License: GNU General Public License v2 or later
  License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: storefront
-Tags:  e-commerce, two-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, featured-images, full-width-template, threaded-comments, accessibility-ready, rtl-language-support, footer-widgets, sticky-post, theme-options
+Tags:  e-commerce
 */
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
@@ -7070,29 +7070,6 @@ dl.variation {
 /**
  * Homepage
  */
-.storefront-product-section .section-title {
-  text-align: left;
-  margin-bottom: 0.5rem;
-  text-transform: uppercase;
-  font-style: italic !important;
-  font-weight: 300 !important;
-  font-size: 1.8rem !important; }
-  @media screen and (min-width: 48em) {
-    .storefront-product-section .section-title {
-      font-size: 2.2rem !important; } }
-  .storefront-product-section .section-title__borderbottom {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-flow: row nowrap;
-        flex-flow: row nowrap;
-    margin-bottom: 2rem; }
-    .storefront-product-section .section-title__borderbottom > div.borderbottom {
-      width: 100px; }
-      .storefront-product-section .section-title__borderbottom > div.borderbottom:first-child {
-        border-top: 5px solid lightgray; }
-      .storefront-product-section .section-title__borderbottom > div.borderbottom:last-child {
-        border-top: 5px solid #EC6D4F; }
-
 .storefront-product-section:last-child {
   border-bottom: 0; }
 
@@ -7751,6 +7728,34 @@ h4 {
     h4 {
       font-size: 1.2rem; } }
 
+.section_title, .storefront-product-section .section-title, header.entry-header > h1.entry-title,
+.related.products > h2,
+.cross-sells > h2 {
+  text-align: left;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  font-style: italic !important;
+  font-weight: 300 !important;
+  font-size: 1.8rem; }
+  @media screen and (min-width: 48em) {
+    .section_title, .storefront-product-section .section-title, header.entry-header > h1.entry-title,
+    .related.products > h2,
+    .cross-sells > h2 {
+      font-size: 2.2rem; } }
+
+.title__borderbottom, .section-title__borderbottom {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row nowrap;
+      flex-flow: row nowrap;
+  margin-bottom: 2rem; }
+  .title__borderbottom > div.borderbottom, .section-title__borderbottom > div.borderbottom {
+    width: 100px; }
+    .title__borderbottom > div.borderbottom:first-child, .section-title__borderbottom > div.borderbottom:first-child {
+      border-top: 5px solid lightgray; }
+    .title__borderbottom > div.borderbottom:last-child, .section-title__borderbottom > div.borderbottom:last-child {
+      border-top: 5px solid #EC6D4F; }
+
 .hide {
   display: none; }
 
@@ -7774,6 +7779,14 @@ noscript iframe.google-tag {
   display: none;
   visibility: hidden; }
 
+.cross-sells > h2 {
+  font-size: 1.65rem; }
+
+/**
+ *-----------------------------------------------------------------------------------------
+ * Customizando FLEXSLIDER
+ *-----------------------------------------------------------------------------------------
+ */
 .flexslider {
   display: none; }
   @media screen and (min-width: 48em) {
@@ -7803,6 +7816,11 @@ noscript iframe.google-tag {
       -ms-flex-direction: row;
           flex-direction: row; } }
 
+/**
+ *-----------------------------------------------------------------------------------------
+ * FOOTER
+ *-----------------------------------------------------------------------------------------
+ */
 .site-footer__item {
   box-sizing: border-box;
   width: 100%; }
@@ -7858,7 +7876,11 @@ noscript iframe.google-tag {
     .site-footer__credits a:hover {
       color: #c44530; }
 
-/** Custom FromCraft */
+/**
+ *-----------------------------------------------------------------------------------------
+ * Custom FROMCRAFT
+ *-----------------------------------------------------------------------------------------
+ */
 html .formcraft-css .powered-by {
   display: none; }
 
@@ -7885,14 +7907,16 @@ footer .formcraft-css .fc-form .form-element .form-element-html {
   margin-bottom: 0.5rem !important; }
 
 /**
- * Estilos personalizados de Google Maps
+ *-----------------------------------------------------------------------------------------
+ * Custom GOOGLEMAS
+ *-----------------------------------------------------------------------------------------
  */
 .site-content > iframe {
   margin-bottom: -5px; }
 
-/*
+/**
 ----------------------------------------------------------------------------------
-HEADER - Barra de Navegación de Contacto y LogIn
+Custom HEADER
 ----------------------------------------------------------------------------------
 */
 .site-header {
@@ -8058,6 +8082,11 @@ a.button.wc-forward {
 .site-header-cart .widget_shopping_cart {
   background-color: #24252B; }
 
+/**
+ *-----------------------------------------------------------------------------------------
+ * Single Product
+ *-----------------------------------------------------------------------------------------
+ */
 @media screen and (min-width: 48em) {
   .single-product div.product .images {
     width: 39%;
@@ -8090,6 +8119,11 @@ a.button.wc-forward {
     .single-product div.product form.cart .button:hover {
       background-color: #126612 !important; } }
 
+/**
+ *-----------------------------------------------------------------------------------------
+ * Custom STICKY
+ *-----------------------------------------------------------------------------------------
+ */
 .sticky {
   color: #fff !important;
   text-decoration: underline !important;
@@ -8103,6 +8137,11 @@ a.button.wc-forward {
   .sticky > .main-navigation {
     width: 100%; }
 
+/**
+ * Custom TIPSY
+ * Estilos sobre el title al hacer hover sobre un enlace
+ * http://onehackoranother.com/projects/jquery/tipsy/
+ */
 .tipsy {
   font-size: 1rem;
   font-weight: 700;
@@ -8193,7 +8232,3 @@ a.button.wc-forward {
     border-left: none;
     border-top-color: transparent;
     border-bottom-color: transparent; }
-
-/*tipsy  http://onehackoranother.com/projects/jquery/tipsy/ */
-.site-header .main-navigation {
-  width: 175%; }
