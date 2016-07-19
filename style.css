@@ -3672,8 +3672,8 @@ input[type="submit"],
   .button.alt,
   .added_to_cart.cta,
   .added_to_cart.alt {
-    background-color: #2c2d33;
-    border-color: #2c2d33; }
+    background-color: #008000;
+    border-color: #008000; }
     button.cta:hover, button.alt:hover,
     input[type="button"].cta:hover,
     input[type="button"].alt:hover,
@@ -3685,7 +3685,7 @@ input[type="submit"],
     .button.alt:hover,
     .added_to_cart.cta:hover,
     .added_to_cart.alt:hover {
-      background-color: #2c2d33; }
+      background-color: #126612; }
   button:hover,
   input[type="button"]:hover,
   input[type="reset"]:hover,
