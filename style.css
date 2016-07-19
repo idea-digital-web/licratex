@@ -6950,14 +6950,15 @@ p.stars {
 .woocommerce-error,
 .woocommerce-noreviews,
 p.no-comments {
-  padding: 1em 1.618em;
   margin-bottom: 2.618em;
   background-color: #0f834d;
   margin-left: 0;
   border-radius: 2px;
   color: #fff;
   clear: both;
-  border-left: 0.618em solid rgba(0, 0, 0, 0.15); }
+  border-left: 0.618em solid rgba(0, 0, 0, 0.15);
+  padding: 0;
+  line-height: 48px; }
   .woocommerce-message::after,
   .woocommerce-info::after,
   .woocommerce-error::after,
@@ -7031,7 +7032,8 @@ p.no-comments {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   content: "\f178";
-  margin-left: .53em; }
+  padding: 1rem;
+  margin: 0; }
 
 .woocommerce-Button--previous:before {
   display: inline-block;
