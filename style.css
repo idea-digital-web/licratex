@@ -7836,6 +7836,8 @@ noscript iframe.google-tag {
   .site-footer__item--contact {
     padding: 0 1rem;
     font-size: 1.2rem; }
+    .site-footer__item--contact > i.fa-envelope::before {
+      margin-right: 0.5rem; }
   .site-footer__item--nav ul.site-footer__item--nav-categories {
     margin-left: 1.2rem !important;
     font-size: 1.25rem;
@@ -7974,6 +7976,8 @@ HEADER - Barra de Navegación de Contacto y LogIn
       line-height: 2rem; }
     .site-header_nav--contact > a {
       font-weight: 300; }
+    .site-header_nav--contact > i.fa-envelope-o::before {
+      margin-right: 0.5rem; }
     @media screen and (min-width: 64em) {
       .site-header_nav--contact {
         width: 22%; } }
