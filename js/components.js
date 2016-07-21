@@ -5,6 +5,7 @@ $(window).load(function () {
       <div class='borderbottom'></div>
     </div>`
   $('header.entry-header').find('h1.entry-title').append(template)
+  $('main.site-main').find('h2.section-title').append(template)
   $('main.site-main').find('h1.page-title').append(template)
   $('.page-content').find('h2').append(template)
   $('div.related.products').find('h2').append(template)
@@ -32,7 +33,7 @@ $(window).load(function () {
     navOffset: 0,
     animDuration: 300,
     startAt: 0, // Stick the menu at XXXpx from the top
-    easing: "easeInQuad",
+    easing: 'easeInQuad',
     bottomAnimation: true,
     jqueryEffects: false,
     animateCSS: true,
