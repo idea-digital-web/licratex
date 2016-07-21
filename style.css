@@ -7139,12 +7139,18 @@ dl.variation {
         font-size: 2rem;
         color: #EC6D4F; }
       .site-header-cart .cart-contents .amount {
-        margin-right: .327em; }
+        margin-right: .327em;
+        color: #EC6D4F; }
+        .site-header-cart .cart-contents .amount:hover {
+          color: #c44530; }
       .site-header-cart .cart-contents .count {
         font-weight: 300;
         opacity: 0.5;
         font-size: .857em;
-        display: none; }
+        display: none;
+        color: #EC6D4F; }
+        .site-header-cart .cart-contents .count:hover {
+          color: #c44530; }
       .site-header-cart .cart-contents span {
         display: inline; }
     .site-header-cart .widget_shopping_cart {
