@@ -16,7 +16,6 @@
 <title><?php bloginfo('name');?> | <?php bloginfo('description');?><?php wp_title( '|', true, 'left' ); ?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/css/flexslider.css">
 <link href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.0.0/animate.min.css" rel="stylesheet" type="text/css">
 
 <!-- Mobile Optimization -->
@@ -24,6 +23,7 @@
 <meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
+<!-- Selectivzr -->
 <!--[if (gte IE 6)&(lte IE 8)]>
     <script type="text/javascript" src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/main.min.js"></script>
     <noscript><link rel="stylesheet" href="[fallback css]" /></noscript>
