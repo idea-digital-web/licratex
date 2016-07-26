@@ -10158,6 +10158,15 @@ noscript iframe.google-tag {
       -ms-flex-direction: row;
           flex-direction: row; } }
 
+a.woocommerce-Button.button {
+  background-color: #EC6D4F;
+  border-color: #EC6D4F;
+  line-height: 50px;
+  padding-right: 1rem; }
+  a.woocommerce-Button.button:hover {
+    background-color: #c44530;
+    border-color: #c44530; }
+
 /**
  *-----------------------------------------------------------------------------------------
  * Customizando FLEXSLIDER
