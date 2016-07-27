@@ -10136,6 +10136,11 @@ noscript iframe.google-tag {
   display: none;
   visibility: hidden; }
 
+/**
+ *-----------------------------------------------------------------------------------------
+ * Custom Contenido
+ *-----------------------------------------------------------------------------------------
+ */
 .cross-sells > h2 {
   font-size: 1.65rem; }
 
@@ -10278,7 +10283,7 @@ footer .formcraft-css .fc-form .form-element .form-element-html {
 
 /**
  *-----------------------------------------------------------------------------------------
- * Custom GOOGLEMAS
+ * Custom GOOGLEMAPS
  *-----------------------------------------------------------------------------------------
  */
 .site-content > iframe {
@@ -10507,6 +10512,11 @@ a.button.wc-forward {
   .sticky > .main-navigation {
     width: 100%; }
 
+/**
+ *-----------------------------------------------------------------------------------------
+ * Página de gracias luego de hacer la compra
+ *-----------------------------------------------------------------------------------------
+ */
 a.woocommerce__paymentrecord {
   display: block;
   padding: 1rem 5rem;
