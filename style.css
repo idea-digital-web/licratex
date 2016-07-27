@@ -10507,6 +10507,16 @@ a.button.wc-forward {
   .sticky > .main-navigation {
     width: 100%; }
 
+a.woocommerce__paymentrecord {
+  display: block;
+  padding: 1rem 5rem;
+  background-color: #008000;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center; }
+  a.woocommerce__paymentrecord:hover {
+    background-color: #126612; }
+
 /**
  * Custom TIPSY
  * Estilos sobre el title al hacer hover sobre un enlace
