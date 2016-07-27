@@ -10167,7 +10167,8 @@ a.woocommerce-Button.button {
   background-color: #EC6D4F;
   border-color: #EC6D4F;
   line-height: 50px;
-  padding-right: 1rem; }
+  padding-right: 1rem;
+  font-size: 1.2rem; }
   a.woocommerce-Button.button:hover {
     background-color: #c44530;
     border-color: #c44530; }
