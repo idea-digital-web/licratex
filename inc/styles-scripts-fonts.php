@@ -12,13 +12,16 @@
 function my_scripts(){
         wp_register_script('myScript', get_stylesheet_directory_uri(). '/js/main.min.js', array('jquery', 'jquery-ui-datepicker'), '1.0.0', true );
         wp_enqueue_script('myScript');
+        wp_register_style( 'jquery-ui', 'http://code.jquery.com/ui/1.12.0-rc.2/themes/smoothness/jquery-ui.css' );
+        wp_enqueue_style( 'jquery-ui' );
 }
 add_action('wp_enqueue_scripts', 'my_scripts', 11);
 
 function my_stylesheet() {
-    wp_enqueue_style( 'myStyle', get_stylesheet_directory_uri().'/css/style.min.css', array('theme', 'jquery-ui-datepicker'), '1.0', 'screen, projection'); 
+    wp_enqueue_style( 'myStyle', get_stylesheet_directory_uri().'/css/style.min.css', array('theme'), '1.0', 'screen, projection'); 
 }
 add_action( 'wp_enqueue_scripts', 'my_stylesheet' );
+
 
 /**
  * Agregar Google Fonts Asap
