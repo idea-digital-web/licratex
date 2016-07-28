@@ -10,7 +10,7 @@
  * how-to-add-custom-css-and-javascript-using-a-child-theme/
 */
 function my_scripts(){
-        wp_register_script('myScript', get_stylesheet_directory_uri(). '/js/main.min.js', array('jquery'), '1', true );
+        wp_register_script('myScript', get_stylesheet_directory_uri(). '/js/main.min.js', array('jquery', 'jquery-ui-datepicker'), '1', true );
         wp_enqueue_script('myScript');
 }
 add_action('wp_enqueue_scripts', 'my_scripts', 11);
