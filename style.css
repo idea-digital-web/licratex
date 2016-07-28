@@ -10136,6 +10136,11 @@ noscript iframe.google-tag {
   display: none;
   visibility: hidden; }
 
+.blockUI,
+.blockUI.blockMsg.blockElement,
+.blockUI.blockOverlay {
+  display: none !important; }
+
 /**
  *-----------------------------------------------------------------------------------------
  * Custom Contenido
