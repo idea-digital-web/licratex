@@ -16,7 +16,7 @@ function my_scripts(){
 add_action('wp_enqueue_scripts', 'my_scripts', 11);
 
 function my_stylesheet() {
-    wp_enqueue_style( 'myStyle', get_stylesheet_directory_uri().'/css/style.min.css', array('theme'), '1.0', 'screen, projection'); 
+    wp_enqueue_style( 'myStyle', get_stylesheet_directory_uri().'/css/style.min.css', array('theme', 'jquery-ui-datepicker'), '1.0', 'screen, projection'); 
 }
 add_action( 'wp_enqueue_scripts', 'my_stylesheet' );
 
