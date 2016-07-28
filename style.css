@@ -10178,6 +10178,12 @@ a.woocommerce-Button.button {
     background-color: #c44530;
     border-color: #c44530; }
 
+.storefront-recent-products span.onsale,
+.storefront-recent-products span.price > del,
+.storefront-best-selling-products span.onsale,
+.storefront-best-selling-products span.price > del {
+  display: none !important; }
+
 /**
  *-----------------------------------------------------------------------------------------
  * Customizando FLEXSLIDER
