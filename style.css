@@ -10121,16 +10121,19 @@ main.site-main > h2.section-title,
   display: none; }
 
 .show-block {
-  display: block; }
+  display: block;
+  transition: all 0.7s ease; }
 
 .show-inline {
-  display: inline; }
+  display: inline;
+  transition: all 0.7s ease; }
 
 .dropdown-menu {
   position: absolute;
   top: 100%;
   z-index: 1000;
-  margin-left: 0; }
+  margin-left: 0;
+  transition: all 0.7s ease; }
 
 noscript iframe.google-tag {
   display: none;
@@ -10409,7 +10412,8 @@ Custom HEADER
       .site-header_nav--welcome--dropdown > button {
         padding: 4px 1rem;
         min-width: 125px;
-        color: #ffffff; }
+        color: #ffffff;
+        font-weight: 300; }
         .site-header_nav--welcome--dropdown > button:focus {
           outline-color: transparent; }
       .site-header_nav--welcome--dropdown > ul {
