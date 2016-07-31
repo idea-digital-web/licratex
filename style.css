@@ -6236,6 +6236,13 @@ button.menu-toggle {
   clear: both; }
   .handheld-navigation ul {
     margin: 0; }
+    .handheld-navigation ul li {
+      text-align: left;
+      padding-left: 1rem; }
+      .handheld-navigation ul li a {
+        color: #000000 !important; }
+        .handheld-navigation ul li a:hover {
+          color: #c44530 !important; }
 
 .main-navigation.toggled .handheld-navigation,
 .main-navigation.toggled .menu > ul:not(.nav-menu),
