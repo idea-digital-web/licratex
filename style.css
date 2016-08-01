@@ -8298,7 +8298,7 @@ ul.products {
       border: 2px solid #000000;
       color: #000000;
       text-transform: uppercase; }
-      @media screen and (min-width: 48em) {
+      @media screen and (min-width: 48px) {
         ul.products li.product .view-details {
           margin-top: 1rem;
           padding: 1rem 2rem; } }
@@ -10059,25 +10059,25 @@ a {
 
 h1 {
   font-size: 1.8rem; }
-  @media screen and (min-width: 48em) {
+  @media screen and (min-width: 48px) {
     h1 {
       font-size: 2rem; } }
 
 h2 {
   font-size: 1.4rem; }
-  @media screen and (min-width: 48em) {
+  @media screen and (min-width: 48px) {
     h2 {
       font-size: 1.6rem; } }
 
 h3 {
   font-size: 1.2rem; }
-  @media screen and (min-width: 48em) {
+  @media screen and (min-width: 48px) {
     h3 {
       font-size: 1.4rem; } }
 
 h4 {
   font-size: 1.1rem; }
-  @media screen and (min-width: 48em) {
+  @media screen and (min-width: 48px) {
     h4 {
       font-size: 1.2rem; } }
 
@@ -10097,7 +10097,7 @@ main.site-main > h2.section-title,
   font-style: italic !important;
   font-weight: 300 !important;
   font-size: 1.8rem; }
-  @media screen and (min-width: 48em) {
+  @media screen and (min-width: 48px) {
     .section_title, .storefront-product-section .section-title, header.entry-header > h1.entry-title,
     header.page-header > h1.page-title,
     main.site-main > h1.page-title,
@@ -10166,13 +10166,13 @@ noscript iframe.google-tag {
   .content-area__slides picture {
     margin: 0.5rem 0;
     width: 100%; }
-    @media screen and (min-width: 48em) {
+    @media screen and (min-width: 48px) {
       .content-area__slides picture {
         margin: 0 0.5rem;
         width: 33%; } }
     .content-area__slides picture img {
       width: 100%; }
-  @media screen and (min-width: 48em) {
+  @media screen and (min-width: 48px) {
     .content-area__slides {
       -ms-flex-direction: row;
           flex-direction: row; } }
@@ -10200,7 +10200,7 @@ a.woocommerce-Button.button {
  */
 .flexslider__principal {
   display: none; }
-  @media screen and (min-width: 48em) {
+  @media screen and (min-width: 48px) {
     .flexslider__principal {
       display: -ms-flexbox;
       display: flex;
@@ -10220,10 +10220,10 @@ a.woocommerce-Button.button {
 .site-footer__item {
   box-sizing: border-box;
   width: 100%; }
-  @media screen and (min-width: 48em) {
+  @media screen and (min-width: 48px) {
     .site-footer__item {
       width: 50%; } }
-  @media screen and (min-width: 64em) {
+  @media screen and (min-width: 64px) {
     .site-footer__item {
       width: 25%; } }
   .site-footer__item h2,
@@ -10325,7 +10325,7 @@ Custom HEADER
     margin-top: 1rem; }
     .site-header > .col-full picture.logo_header {
       display: none; }
-      @media screen and (min-width: 48em) {
+      @media screen and (min-width: 48px) {
         .site-header > .col-full picture.logo_header {
           display: -ms-flexbox;
           display: flex;
@@ -10336,7 +10336,7 @@ Custom HEADER
           margin-right: 1rem; } }
     .site-header > .col-full section.secondary_navigation_wrapper {
       display: none; }
-      @media screen and (min-width: 48em) {
+      @media screen and (min-width: 48px) {
         .site-header > .col-full section.secondary_navigation_wrapper {
           display: -ms-flexbox;
           display: flex;
@@ -10386,7 +10386,7 @@ Custom HEADER
       box-sizing: border-box;
       padding-left: 1rem;
       display: none; }
-      @media screen and (min-width: 64em) {
+      @media screen and (min-width: 64px) {
         .site-header_nav--item {
           display: block; } }
     .site-header_nav--nav ul li a,
@@ -10400,13 +10400,13 @@ Custom HEADER
       font-weight: 300; }
     .site-header_nav--contact > i.fa-envelope-o::before {
       margin-right: 0.5rem; }
-    @media screen and (min-width: 64em) {
+    @media screen and (min-width: 64px) {
       .site-header_nav--contact {
         width: 22%; } }
-    @media screen and (min-width: 64em) {
+    @media screen and (min-width: 64px) {
       .site-header_nav--contact:nth-child(1) {
         width: 25%; } }
-    @media screen and (min-width: 64em) {
+    @media screen and (min-width: 64px) {
       .site-header_nav--welcome {
         box-sizing: border-box;
         display: -ms-flexbox;
@@ -10441,7 +10441,7 @@ Custom HEADER
     .site-header_nav--login a,
     .site-header_nav--login a > i {
       font-weight: 300 !important; }
-    @media screen and (min-width: 64em) {
+    @media screen and (min-width: 64px) {
       .site-header_nav--social {
         width: 10%;
         text-align: center;
@@ -10484,7 +10484,7 @@ a.button.wc-forward {
  * Single Product
  *-----------------------------------------------------------------------------------------
  */
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 48px) {
   .single-product div.product .images {
     width: 39%;
     margin-right: 1%; }
