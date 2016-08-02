@@ -10193,11 +10193,28 @@ a.woocommerce-Button.button {
     background-color: #c44530;
     border-color: #c44530; }
 
-.storefront-recent-products span.onsale,
-.storefront-recent-products span.price > del,
-.storefront-best-selling-products span.onsale,
-.storefront-best-selling-products span.price > del {
-  display: none !important; }
+.storefront-on-sale-products,
+.storefront-best-selling-products,
+.storefront-popular-products,
+.storefront-featured-products {
+  display: none; }
+  @media screen and (min-width: 568px) {
+    .storefront-on-sale-products,
+    .storefront-best-selling-products,
+    .storefront-popular-products,
+    .storefront-featured-products {
+      display: block; } }
+
+@media screen and (min-width: 568px) {
+  .storefront-recent-products span.onsale,
+  .storefront-recent-products span.price > del,
+  .storefront-best-selling-products span.onsale,
+  .storefront-best-selling-products span.price > del,
+  .storefront-popular-products span.onsale,
+  .storefront-popular-products span.price > del,
+  .storefront-featured-products span.onsale,
+  .storefront-featured-products span.price > del {
+    display: none !important; } }
 
 /**
  *-----------------------------------------------------------------------------------------
@@ -10214,11 +10231,11 @@ a.woocommerce-Button.button {
           align-items: center;
       border: none !important;
       margin-top: 3.2rem; } }
-  @media screen and (min-width: 768px) and (min-width: 1024px) {
+  @media screen and (min-width: 1024px) {
     .flexslider__principal {
       margin-top: 0; } }
 
-.flexslider__products .products {
+.flexslider__two-products .products, .flexslider__three-products .products, .flexslider__four-products .products {
   display: -ms-flexbox;
   display: flex; }
 
@@ -10369,7 +10386,7 @@ Custom HEADER
       .site-header > .col-full section.secondary_navigation_wrapper picture {
         margin: 0 auto 1rem auto; }
       .site-header > .col-full section.secondary_navigation_wrapper div.site-search {
-        width: 68%;
+        width: 65%;
         margin-left: 2rem;
         -ms-flex-order: 2;
             order: 2;
