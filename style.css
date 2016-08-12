@@ -5453,7 +5453,8 @@ li {
   margin-bottom: 2.618em; }
 
 .site-content {
-  outline: none; }
+  outline: none;
+  margin-top: 60px; }
 
 .page-template-template-homepage .site-main {
   padding-top: 0; }
@@ -10233,7 +10234,7 @@ a.woocommerce-Button.button {
       margin-top: 3.2rem; } }
   @media screen and (min-width: 1024px) {
     .flexslider__principal {
-      margin-top: 0; } }
+      margin: 0; } }
 
 .flexslider__two-products .products, .flexslider__three-products .products, .flexslider__four-products .products {
   display: -ms-flexbox;
