@@ -5378,6 +5378,11 @@ html[xmlns] .flexslider .slides {
   clip: auto; }
 
 /**
+ *-----------------------------------------------------------------------------------------
+ * Customizamos Storefront
+ *-----------------------------------------------------------------------------------------
+ */
+/**
  * Global styles
  */
 * {
@@ -10043,7 +10048,11 @@ dl.variation {
     padding-left: 2.618rem;
     padding-right: 2.618rem; } }
 
-/** Customizando Estilos */
+/**
+ *-----------------------------------------------------------------------------------------
+ * Customizamos Estilos
+ *-----------------------------------------------------------------------------------------
+ */
 body,
 button,
 input,
@@ -10243,6 +10252,11 @@ a.woocommerce-Button.button {
   display: -ms-flexbox;
   display: flex; }
 
+/**
+ *-----------------------------------------------------------------------------------------
+ * FOOTER CREDITS
+ *-----------------------------------------------------------------------------------------
+ */
 .site-footer__credits {
   display: none; }
   @media screen and (min-width: 768px) {
@@ -10252,15 +10266,19 @@ a.woocommerce-Button.button {
       color: #ffffff;
       text-align: center;
       padding-top: 1rem;
-      padding-bottom: 1rem; } }
-  @media screen and (min-width: 768px) and (min-width: 1024px) {
-    .site-footer__credits span:before {
-      content: "|";
-      background-color: #ffffff;
-      margin: 0 5px;
-      font-weight: normal; }
-    .site-footer__credits span:first-child:before {
-      content: ""; } }
+      padding-bottom: 1rem; }
+      .site-footer__credits span {
+        display: block; } }
+    @media screen and (min-width: 768px) and (min-width: 1024px) {
+      .site-footer__credits span {
+        display: inline; }
+        .site-footer__credits span:before {
+          content: "|";
+          background-color: #ffffff;
+          margin: 0 5px;
+          font-weight: normal; }
+        .site-footer__credits span:first-child:before {
+          content: ""; } }
   .site-footer__credits a {
     color: #EC6D4F;
     font-weight: 300; }
@@ -10593,9 +10611,11 @@ a.woocommerce__paymentrecord {
     background-color: #126612; }
 
 /**
+ *----------------------------------------------------------------------------------------------------------------
  * Custom TIPSY
  * Estilos sobre el title al hacer hover sobre un enlace
  * http://onehackoranother.com/projects/jquery/tipsy/
+  * --------------------------------------------------------------------------------------------------------------
  */
 .tipsy {
   font-size: 1rem;
