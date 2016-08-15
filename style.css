@@ -10575,7 +10575,8 @@ a.button.wc-forward {
     .single-product div.product p.price > del {
       font-size: 75%; }
     .single-product div.product p.price > small {
-      display: block; }
+      display: block;
+      font-size: 50%; }
   .single-product div.product form.cart .button {
     float: left !important;
     background-color: #008000 !important; }
