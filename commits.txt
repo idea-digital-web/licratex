@@ -1,3 +1,9 @@
+commit 43519f8b1004e0cb23de812c692ec2ae5c02a8dd
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Fri Aug 19 13:05:04 2016 -0400
+
+    Mejorado separador de footer credits
+
 commit f4df974a062885b710941069d0e913cdf037412c
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Fri Aug 19 12:01:53 2016 -0400
