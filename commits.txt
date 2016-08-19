@@ -1,3 +1,9 @@
+commit 11cb2e2fe603453eb78e8e95cbdee2033dbee2e8
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Fri Aug 19 15:08:59 2016 -0400
+
+    Eliminado breadcrumb
+
 commit b35fba6d757f4f78440553a264bff53db47d5107
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Fri Aug 19 13:28:03 2016 -0400
