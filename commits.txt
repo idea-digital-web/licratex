@@ -1,3 +1,9 @@
+commit 95742a5ac3c2e0dc89809fa700c5b20955840208
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Sat Aug 20 11:21:30 2016 -0400
+
+    Agregado meta-cache
+
 commit fac5a3e2523d233cb31d1becc1362bd81a9dcfc3
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Sat Aug 20 08:12:03 2016 -0400
