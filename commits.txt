@@ -1,3 +1,9 @@
+commit 6502cb7a480f195e04842a8577fcf6c2d7c89f65
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Sat Aug 20 17:01:22 2016 -0400
+
+    Cambiada etiquetas ciudad y estado en facturacion
+
 commit 9e65499c04ca8e8f6a9d66b526fe2c6e6f798c58
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Sat Aug 20 16:35:31 2016 -0400
