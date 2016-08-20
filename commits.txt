@@ -1,3 +1,9 @@
+commit 41baa84c6276dd847fc09aa5c0300305c711fd07
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Sat Aug 20 13:31:50 2016 -0400
+
+    Optimizado phone, mobile, email
+
 commit 95742a5ac3c2e0dc89809fa700c5b20955840208
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Sat Aug 20 11:21:30 2016 -0400
