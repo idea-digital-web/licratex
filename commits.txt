@@ -1,3 +1,9 @@
+commit ea3a35446288ea626345f0d0731ab04f08af268d
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Aug 22 10:55:47 2016 -0400
+
+    Eliminado meta cache
+
 commit 69e6029175e918cdef70d8ce42c32c897f26d399
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Mon Aug 22 10:34:12 2016 -0400
