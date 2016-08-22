@@ -1,3 +1,9 @@
+commit ea0da2256963bb3caa15269ceccc302299268176
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Aug 22 11:02:10 2016 -0400
+
+    Inicio de optimizacion de html
+
 commit ea3a35446288ea626345f0d0731ab04f08af268d
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Mon Aug 22 10:55:47 2016 -0400
