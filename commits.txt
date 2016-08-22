@@ -1,3 +1,9 @@
+commit 7028d3bbe4f8f4edd03f9ca7b127c226f2df31f7
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Aug 22 11:14:37 2016 -0400
+
+    Eliminado span en site-header_nav--login
+
 commit 55f5d11d36995992c77725f252ad8bc7c3842cf8
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Mon Aug 22 11:11:00 2016 -0400
