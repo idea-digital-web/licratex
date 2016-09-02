@@ -1,3 +1,9 @@
+commit a1a875fd4887996990a90c57cb9fcb3a5a4832ae
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Aug 30 08:25:34 2016 -0400
+
+    Quitado form de localhost
+
 commit 8e3c00af0fb597dc4ebe7e6ad90928ca61195d8a
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Mon Aug 29 16:49:04 2016 -0400
