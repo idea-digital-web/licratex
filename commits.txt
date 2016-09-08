@@ -1,3 +1,9 @@
+commit cfabd5a9760f569e956eb68b080f308250f3c6b5
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Fri Sep 2 16:02:09 2016 -0400
+
+    Mejorado custom-login-css
+
 commit a1a875fd4887996990a90c57cb9fcb3a5a4832ae
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Tue Aug 30 08:25:34 2016 -0400
