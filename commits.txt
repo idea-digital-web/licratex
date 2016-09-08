@@ -1,3 +1,9 @@
+commit f7ede9c0680635c5fbca4aff40ce046451736886
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Thu Sep 8 11:53:53 2016 -0400
+
+    Eliminado storefront_header_widget_region
+
 commit cfabd5a9760f569e956eb68b080f308250f3c6b5
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Fri Sep 2 16:02:09 2016 -0400
